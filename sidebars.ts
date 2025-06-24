@@ -5,30 +5,41 @@ const sidebars: SidebarsConfig = {
     {
       type: 'doc',
       id: 'index',
-      label: '🎯 Overview',
+      label: '🏠 Overview',
     },
     {
       type: 'category',
-      label: '📊 Investor Presentation',
+      label: '📱 Visual Mockups',
       collapsed: false,
       items: [
-        'investor-flows',
-        'mobile-ux-flows',
+        'visual-wireframes',
       ],
     },
     {
-      type: 'category',
-      label: '📱 Product Details',
-      collapsed: true,
+      type: 'category', 
+      label: '💼 For Investors',
+      collapsed: false,
       items: [
-        'technical-specs',
+        'investor-flows',
         'market-analysis',
       ],
     },
     {
-      type: 'doc',
-      id: 'presentation-guide',
-      label: '🚀 Presentation Guide',
+      type: 'category',
+      label: '🔧 For Developers', 
+      collapsed: true,
+      items: [
+        'mobile-ux-flows',
+        'technical-specs',
+      ],
+    },
+    {
+      type: 'category',
+      label: '📋 Resources',
+      collapsed: true,
+      items: [
+        'presentation-guide',
+      ],
     },
   ],
 };

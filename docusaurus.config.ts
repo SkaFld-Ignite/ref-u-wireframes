@@ -4,16 +4,16 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Ref-U Platform Wireframes',
-  tagline: 'Professional Interactive Wireframes for Investor Presentation',
+  tagline: 'Revolutionary Sports Fan Engagement Platform - Complete Wireframes Package',
   favicon: 'img/favicon.ico',
 
   url: 'https://ref-u-wireframes.vercel.app',
   baseUrl: '/',
 
-  organizationName: 'ref-u-platform',
+  organizationName: 'SkaFld-Ignite',
   projectName: 'ref-u-wireframes',
 
-  onBrokenLinks: 'warn', // Change from 'throw' to 'warn' for deployment
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -32,9 +32,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          routeBasePath: '/', // Serve docs at the site's root
+          routeBasePath: '/',
         },
-        blog: false, // Disable blog
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -47,7 +47,7 @@ const config: Config = {
     navbar: {
       title: 'Ref-U Wireframes',
       logo: {
-        alt: 'Ref-U Logo',
+        alt: 'Ref-U Platform Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -55,10 +55,20 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'wireframesSidebar',
           position: 'left',
-          label: 'Wireframes',
+          label: '📱 Wireframes',
         },
         {
-          href: 'https://github.com/your-org/ref-u-wireframes',
+          to: '/visual-wireframes',
+          position: 'left',
+          label: '🎨 Visual Mockups',
+        },
+        {
+          to: '/investor-flows',
+          position: 'left',
+          label: '💼 For Investors',
+        },
+        {
+          href: 'https://github.com/SkaFld-Ignite/ref-u-wireframes',
           label: 'GitHub',
           position: 'right',
         },
@@ -68,33 +78,59 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Wireframes',
+          title: 'Visual Wireframes',
           items: [
             {
-              label: 'Investor Presentation',
+              label: '📱 Complete Mockups',
+              to: '/visual-wireframes',
+            },
+            {
+              label: '📊 Interactive Flows',
+              to: '/investor-flows',
+            },
+          ],
+        },
+        {
+          title: 'For Investors',
+          items: [
+            {
+              label: '💰 Business Model',
               to: '/investor-flows',
             },
             {
-              label: 'Mobile UX Flows',
+              label: '�� Market Analysis',
+              to: '/market-analysis',
+            },
+          ],
+        },
+        {
+          title: 'For Developers',
+          items: [
+            {
+              label: '🔧 Technical Specs',
+              to: '/technical-specs',
+            },
+            {
+              label: '📱 UX Details',
               to: '/mobile-ux-flows',
             },
           ],
         },
         {
-          title: 'Business',
+          title: 'More',
           items: [
             {
-              label: 'Market Opportunity',
-              to: '/market-analysis',
+              label: '📋 How to Present',
+              to: '/presentation-guide',
             },
             {
-              label: 'Technical Specs',
-              to: '/technical-specs',
+              label: 'GitHub Repository',
+              href: 'https://github.com/SkaFld-Ignite/ref-u-wireframes',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Ref-U Platform. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Ref-U Platform. Professional wireframes for revolutionary sports fan engagement.`,
     },
     prism: {
       theme: prismThemes.github,
