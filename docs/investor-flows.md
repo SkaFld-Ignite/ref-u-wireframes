@@ -1,21 +1,21 @@
 ---
 sidebar_position: 2
-title: Investor Presentation Flows
-description: Core business flows, revenue models, and growth strategy for investor presentations
+title: Business Model & Strategy
+description: Core business flows, revenue models, and growth strategy
 ---
 
-# 📊 Ref-U Platform: Interactive Business Flows
+# 📊 Ref-U Platform: Business Model & Strategy
 
-*Comprehensive business model and revenue visualization using interactive Mermaid diagrams*
+*Comprehensive business model and revenue visualization using interactive diagrams*
 
-## 🎯 Executive User Journey Flow
+## 🎯 User Journey & Revenue Flow
 
 ```mermaid
 graph TD
     A[Social Media Discovery] --> B[Landing Page Visit]
     B --> C{Compelling Demo?}
     C -->|Yes| D[Sign Up - Google/Apple]
-    C -->|No| X[❌ 45% Bounce Rate]
+    C -->|No| X[45% Bounce Rate]
     
     D --> E[5-Step Onboarding]
     E --> F[Sports Selection]
@@ -28,9 +28,9 @@ graph TD
     K --> L[Vote on Referee Call]
     L --> M[+15 XP Earned]
     M --> N[Join Team Cohort]
-    N --> O[💰 Retained User]
+    N --> O[Retained User]
     
-    O --> P{Premium Trigger}
+    O --> P{Monetization Trigger}
     P -->|Analytics| Q[$9.99/mo Premium]
     P -->|Merchandise| R[$47 Team Store]
     P -->|Content| S[VIP Access]
@@ -39,18 +39,18 @@ graph TD
     R --> U[Repeat Purchases]
     S --> V[Brand Ambassador]
     
-    style A fill:#3b82f6,color:white
-    style O fill:#10b981,color:white
-    style Q fill:#8b5cf6,color:white
-    style R fill:#f59e0b,color:white
-    style X fill:#ef4444,color:white
+    style A fill:#e3f2fd
+    style O fill:#e8f5e8
+    style Q fill:#f3e5f5
+    style R fill:#fff3e0
+    style X fill:#ffebee
 ```
 
-## 📱 Mobile App Architecture & Flow
+## 📱 Platform Architecture Overview
 
 ```mermaid
 graph LR
-    subgraph "Landing Experience"
+    subgraph "User Experience"
         A1[Hero Section]
         A2[Live Game Preview]
         A3[Feature Showcase]
@@ -63,7 +63,7 @@ graph LR
         B3[Onboarding Wizard]
     end
     
-    subgraph "Core Game Experience"
+    subgraph "Core Features"
         C1[Game Selection]
         C2[Live Dashboard]
         C3[Call Voting]
@@ -71,14 +71,14 @@ graph LR
         C5[Leaderboards]
     end
     
-    subgraph "Community Features"
+    subgraph "Community"
         D1[Team Cohorts]
         D2[Live Chat]
         D3[Content Sharing]
         D4[Challenges]
     end
     
-    subgraph "Monetization"
+    subgraph "Revenue Streams"
         E1[Premium Analytics]
         E2[Team Merchandise]
         E3[Creator Tools]
@@ -91,13 +91,13 @@ graph LR
     C4 --> E1
     D3 --> E3
     
-    style A1 fill:#3b82f6,color:white
-    style C3 fill:#10b981,color:white
-    style E1 fill:#8b5cf6,color:white
-    style E2 fill:#f59e0b,color:white
+    style A1 fill:#e3f2fd
+    style C3 fill:#e8f5e8
+    style E1 fill:#f3e5f5
+    style E2 fill:#fff3e0
 ```
 
-## 💰 Revenue Generation Flow Chart
+## 💰 Revenue Generation Model
 
 ```mermaid
 graph TD
@@ -128,17 +128,17 @@ graph TD
     Q --> S[Group Purchases]
     Q --> T[Viral Sharing]
     
-    H --> U[📊 $900K ARR Target]
-    J --> V[📊 $500K Commerce Revenue]
+    H --> U[$900K ARR Target]
+    J --> V[$500K Commerce Revenue]
     
-    style A fill:#6b7280,color:white
-    style F fill:#10b981,color:white
-    style I fill:#f59e0b,color:white
-    style U fill:#8b5cf6,color:white
-    style V fill:#ec4899,color:white
+    style A fill:#f5f5f5
+    style F fill:#e8f5e8
+    style I fill:#fff3e0
+    style U fill:#f3e5f5
+    style V fill:#fce4ec
 ```
 
-## 🏀 Live Game Experience Wireframe
+## 🏀 Live Game Experience Flow
 
 ```mermaid
 graph TB
@@ -148,30 +148,30 @@ graph TB
     end
     
     subgraph "Main Content"
-        B1[🚨 BREAKING CALL]
-        B2[👨‍⚖️ Technical Foul - Curry]
-        B3[▶️ Watch 15s Replay]
+        B1[BREAKING CALL]
+        B2[Technical Foul - Curry]
+        B3[Watch 15s Replay]
         B4[Community: 89% DISAGREE]
     end
     
     subgraph "User Action"
-        C1[👍 AGREE Button]
-        C2[👎 DISAGREE Button]
-        C3[💬 Comment Section]
+        C1[AGREE Button]
+        C2[DISAGREE Button]
+        C3[Comment Section]
     end
     
     subgraph "Engagement Metrics"
-        D1[⚡ +15 XP Earned]
-        D2[🏆 5-Game Streak]
-        D3[📊 Accuracy: 87%]
-        D4[🎯 Top 5% of Fans]
+        D1[+15 XP Earned]
+        D2[5-Game Streak]
+        D3[Accuracy: 87%]
+        D4[Top 5% of Fans]
     end
     
     subgraph "Social Features"
-        E1[💬 Live Chat - 45 msgs]
-        E2[👥 Team Cohort Activity]
-        E3[📱 Share Clip Option]
-        E4[🎯 Predict Next Call]
+        E1[Live Chat - 45 msgs]
+        E2[Team Cohort Activity]
+        E3[Share Clip Option]
+        E4[Predict Next Call]
     end
     
     A1 --> B1
@@ -182,12 +182,12 @@ graph TB
     C2 --> D1
     D1 --> E1
     
-    style B1 fill:#ef4444,color:white
-    style D1 fill:#10b981,color:white
-    style E1 fill:#3b82f6,color:white
+    style B1 fill:#ffebee
+    style D1 fill:#e8f5e8
+    style E1 fill:#e3f2fd
 ```
 
-## 🎮 Gamification & Engagement System
+## 🎮 Gamification System
 
 ```mermaid
 graph LR
@@ -230,12 +230,12 @@ graph LR
     B4 --> C5
     B4 --> C6
     
-    style A1 fill:#10b981,color:white
-    style B4 fill:#8b5cf6,color:white
-    style C6 fill:#f59e0b,color:white
+    style A1 fill:#e8f5e8
+    style B4 fill:#f3e5f5
+    style C6 fill:#fff3e0
 ```
 
-## 🛒 E-Commerce Integration Flow
+## 🛒 E-Commerce Integration
 
 ```mermaid
 graph TD
@@ -247,14 +247,14 @@ graph TD
     D --> E2[Team Hat<br/>$34.99]
     D --> E3[Championship Hoodie<br/>$64.99]
     
-    E1 --> F[Ref-U Member Discount<br/>-15% off]
+    E1 --> F[Member Discount<br/>-15% off]
     E2 --> F
     E3 --> F
     
     F --> G[Social Proof]
-    G --> H1[👥 12 cohort members shopping]
-    G --> H2[💬 Live purchase updates]
-    G --> H3[🔥 Limited time discount]
+    G --> H1[12 cohort members shopping]
+    G --> H2[Live purchase updates]
+    G --> H3[Limited time discount]
     
     H1 --> I[Add to Cart]
     H2 --> I
@@ -270,19 +270,19 @@ graph TD
     K3 --> M[Social Commerce<br/>Share with Friends]
     
     L --> N[Order Confirmation]
-    N --> O[📊 Revenue: $47.50 avg]
+    N --> O[Revenue: $47.50 avg]
     
     M --> P[Viral Sharing]
     P --> Q[Friend Referrals]
     Q --> R[Network Growth]
     
-    style A fill:#10b981,color:white
-    style F fill:#f59e0b,color:white
-    style O fill:#8b5cf6,color:white
-    style R fill:#ec4899,color:white
+    style A fill:#e8f5e8
+    style F fill:#fff3e0
+    style O fill:#f3e5f5
+    style R fill:#fce4ec
 ```
 
-## 📈 Market Competition Analysis
+## 📈 Market Position Analysis
 
 ```mermaid
 graph TB
@@ -324,43 +324,43 @@ graph TB
     
     A --> G
     
-    style A fill:#10b981,color:white
-    style B fill:#6b7280,color:white
-    style C fill:#6b7280,color:white
-    style D fill:#6b7280,color:white
-    style E fill:#6b7280,color:white
-    style G fill:#8b5cf6,color:white
+    style A fill:#e8f5e8
+    style B fill:#f5f5f5
+    style C fill:#f5f5f5
+    style D fill:#f5f5f5
+    style E fill:#f5f5f5
+    style G fill:#f3e5f5
 ```
 
-## 🚀 Growth & Exit Strategy
+## 🚀 Growth Strategy
 
 ```mermaid
 graph LR
-    subgraph "Current Traction"
+    subgraph "Current Status"
         A1[50K Beta Users]
         A2[70% Retention Rate]
         A3[25+ Min Sessions]
         A4[ESPN Discussions]
     end
     
-    subgraph "18-Month Targets"
+    subgraph "18-Month Goals"
         B1[2M Active Users]
         B2[$2M Monthly Revenue]
         B3[4 Sports Covered]
         B4[$50M+ Valuation]
     end
     
-    subgraph "Exit Opportunities"
-        C1[Media Acquisition<br/>ESPN, Fox Sports<br/>$50M-$200M]
-        C2[Tech Platform<br/>Meta, Google, Apple<br/>$100M-$500M]
-        C3[Sports League<br/>NBA, NFL Direct<br/>$25M-$100M]
-        C4[IPO Potential<br/>Public Offering<br/>$500M+]
+    subgraph "Expansion Opportunities"
+        C1[Media Partnerships<br/>ESPN, Fox Sports<br/>$50M-$200M]
+        C2[Tech Integration<br/>Meta, Google, Apple<br/>$100M-$500M]
+        C3[League Partnerships<br/>NBA, NFL Direct<br/>$25M-$100M]
+        C4[Public Offering<br/>IPO Potential<br/>$500M+]
     end
     
-    subgraph "Investor Returns"
-        D1[Seed: $500K → $5M+<br/>10x in 18 months]
-        D2[Series A: $2M → $20M+<br/>10x in 36 months]
-        D3[Based on comparables:<br/>DraftKings ($3.3B)<br/>FanDuel ($11.2B)]
+    subgraph "ROI Projections"
+        D1[Seed: $500K to $5M+<br/>10x in 18 months]
+        D2[Series A: $2M to $20M+<br/>10x in 36 months]
+        D3[Comparable exits:<br/>DraftKings ($3.3B)<br/>FanDuel ($11.2B)]
     end
     
     A1 --> B1
@@ -377,48 +377,46 @@ graph LR
     C2 --> D2
     C3 --> D3
     
-    style A1 fill:#3b82f6,color:white
-    style B4 fill:#10b981,color:white
-    style C2 fill:#8b5cf6,color:white
-    style D2 fill:#f59e0b,color:white
+    style A1 fill:#e3f2fd
+    style B4 fill:#e8f5e8
+    style C2 fill:#f3e5f5
+    style D2 fill:#fff3e0
 ```
 
-## 📊 Key Metrics Dashboard
+## 📊 Key Performance Metrics
 
 ```mermaid
 graph TB
-    subgraph "User Engagement Metrics"
-        A1[Session Duration<br/>25+ minutes<br/>🟢 312% above industry]
-        A2[Retention Rate<br/>70%<br/>🟢 75% above industry]
-        A3[Community Participation<br/>80% join cohorts<br/>🟢 247% above industry]
+    subgraph "User Engagement"
+        A1[Session Duration<br/>25+ minutes<br/>312% above industry]
+        A2[Retention Rate<br/>70%<br/>75% above industry]
+        A3[Community Participation<br/>80% join cohorts<br/>247% above industry]
     end
     
-    subgraph "Revenue Metrics"
-        B1[Premium Conversion<br/>15.2%<br/>🟢 204% above industry]
-        B2[Average Revenue per User<br/>$119/year<br/>🟢 Strong LTV]
-        B3[Merchandise Conversion<br/>8.3%<br/>🟢 Social commerce leader]
+    subgraph "Revenue Performance"
+        B1[Premium Conversion<br/>15.2%<br/>204% above industry]
+        B2[Revenue per User<br/>$119/year<br/>Strong LTV]
+        B3[Merchandise Conversion<br/>8.3%<br/>Social commerce leader]
     end
     
-    subgraph "Growth Metrics"
-        C1[Monthly User Growth<br/>15% organic<br/>🟢 Viral coefficient 1.3]
-        C2[Content Creation<br/>40% create clips<br/>🟢 UGC drives 67% downloads]
-        C3[Word of Mouth<br/>NPS Score 72<br/>🟢 Excellent recommendation rate]
+    subgraph "Growth Indicators"
+        C1[Monthly User Growth<br/>15% organic<br/>Viral coefficient 1.3]
+        C2[Content Creation<br/>40% create clips<br/>UGC drives 67% downloads]
+        C3[Word of Mouth<br/>NPS Score 72<br/>Excellent recommendation rate]
     end
     
     subgraph "Market Opportunity"
-        D1[Total Addressable Market<br/>$15.2B<br/>🎯 Sports Media & Tech]
-        D2[Serviceable Market<br/>$2.8B<br/>🎯 Interactive Platforms]
-        D3[Obtainable Market<br/>$340M<br/>🎯 Youth Sports Engagement]
+        D1[Total Market<br/>$15.2B<br/>Sports Media & Tech]
+        D2[Serviceable Market<br/>$2.8B<br/>Interactive Platforms]
+        D3[Target Market<br/>$340M<br/>Youth Sports Engagement]
     end
     
-    style A1 fill:#10b981,color:white
-    style B1 fill:#8b5cf6,color:white
-    style C1 fill:#f59e0b,color:white
-    style D1 fill:#3b82f6,color:white
+    style A1 fill:#e8f5e8
+    style B1 fill:#f3e5f5
+    style C1 fill:#fff3e0
+    style D1 fill:#e3f2fd
 ```
 
 ---
 
-*These Mermaid diagrams provide a professional, interactive visualization of the Ref-U platform for investor presentations. Each diagram can be rendered in presentation software, GitHub, or any Mermaid-compatible viewer for maximum impact.*
-
-**🎯 Ready for investor presentation with professional interactive diagrams!**
+*These interactive diagrams provide a comprehensive visualization of the Ref-U platform's business model and strategic positioning for stakeholder presentations.*

@@ -9,7 +9,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category', 
-      label: '💼 For Investors',
+      label: '📈 Business Overview',
       collapsed: false,
       items: [
         'investor-flows',
@@ -18,7 +18,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: '🔧 For Developers', 
+      label: '🔧 Technical Details', 
       collapsed: true,
       items: [
         'mobile-ux-flows',
