@@ -4,20 +4,12 @@ const sidebars: SidebarsConfig = {
   wireframesSidebar: [
     {
       type: 'doc',
-      id: 'index',
-      label: '🏠 Overview',
-    },
-    {
-      type: 'category',
-      label: '📱 Visual Mockups',
-      collapsed: false,
-      items: [
-        'visual-wireframes',
-      ],
+      id: 'visual-wireframes',
+      label: 'Visual Wireframes',
     },
     {
       type: 'category', 
-      label: '💼 For Investors',
+      label: 'For Investors',
       collapsed: false,
       items: [
         'investor-flows',
@@ -26,7 +18,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: '🔧 For Developers', 
+      label: 'For Developers', 
       collapsed: true,
       items: [
         'mobile-ux-flows',
@@ -35,7 +27,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: '📋 Resources',
+      label: 'Resources',
       collapsed: true,
       items: [
         'presentation-guide',

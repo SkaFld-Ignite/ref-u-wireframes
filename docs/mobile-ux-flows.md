@@ -7,7 +7,7 @@ description: Detailed mobile user experience flows and conversion funnels
 # Mobile UX Flows - Mermaid Wireframes
 *Detailed Mobile User Experience Visualization*
 
-## 📱 Mobile Onboarding Flow (375px)
+##  Mobile Onboarding Flow (375px)
 
 ```mermaid
 journey
@@ -36,7 +36,7 @@ journey
       Become Power User: 10: User
 ```
 
-## 🏀 Live Game Interface State Diagram
+##  Live Game Interface State Diagram
 
 ```mermaid
 stateDiagram-v2
@@ -70,7 +70,7 @@ stateDiagram-v2
     NoGames --> GameSelection : Refresh
 ```
 
-## 💰 Revenue Conversion Funnel
+##  Revenue Conversion Funnel
 
 ```mermaid
 graph TD
@@ -267,7 +267,7 @@ graph TB
     style F4 fill:#ec4899,color:white
 ```
 
-## 📱 Mobile Screen Flow Hierarchy
+##  Mobile Screen Flow Hierarchy
 
 ```mermaid
 graph TD
@@ -323,7 +323,7 @@ graph TD
     style Z fill:#f59e0b,color:white
 ```
 
-## 📈 User Engagement Metrics Flow
+##  User Engagement Metrics Flow
 
 ```mermaid
 graph LR

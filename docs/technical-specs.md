@@ -4,7 +4,7 @@ title: Technical Specifications
 description: Technical architecture, infrastructure, and implementation details
 ---
 
-# 🔧 Technical Specifications
+#  Technical Specifications
 
 ## Platform Architecture
 

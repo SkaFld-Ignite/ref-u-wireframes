@@ -4,7 +4,7 @@ title: Market Analysis
 description: Competitive landscape, market opportunity, and positioning strategy
 ---
 
-# 📈 Market Analysis
+#  Market Analysis
 
 ## Market Size & Opportunity
 
@@ -51,10 +51,10 @@ graph TB
     end
     
     subgraph "Ref-U Advantage"
-        J[🎯 Referee Focus<br/>Unique Positioning]
-        K[📚 Educational Value<br/>Rule Learning]
-        L[👨‍👩‍👧‍👦 Family Safe<br/>Youth Features]
-        M[🏆 Gamification<br/>Engagement System]
+        J[ Referee Focus<br/>Unique Positioning]
+        K[ Educational Value<br/>Rule Learning]
+        L[👩👧👦 Family Safe<br/>Youth Features]
+        M[ Gamification<br/>Engagement System]
     end
     
     style J fill:#10b981,color:white

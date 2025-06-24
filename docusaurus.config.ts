@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'Revolutionary Sports Fan Engagement Platform - Complete Wireframes Package',
   favicon: 'img/favicon.ico',
 
-  url: 'https://ref-u-wireframes-site-4dkbhhif6-skafld-studio.vercel.app',
+  url: 'https://ref-u-wireframes-site-bvrg3l10e-skafld-studio.vercel.app',
   baseUrl: '/',
 
   organizationName: 'SkaFld-Ignite',
@@ -70,11 +70,11 @@ const config: Config = {
           title: 'Visual Wireframes',
           items: [
             {
-              label: '📱 Complete Mockups',
-              to: '/visual-wireframes',
+              label: 'Complete Mockups',
+              to: '/',
             },
             {
-              label: '📊 Interactive Flows',
+              label: 'Interactive Flows',
               to: '/investor-flows',
             },
           ],
@@ -83,11 +83,11 @@ const config: Config = {
           title: 'For Investors',
           items: [
             {
-              label: '💰 Business Model',
+              label: 'Business Model',
               to: '/investor-flows',
             },
             {
-              label: '📈 Market Analysis',
+              label: 'Market Analysis',
               to: '/market-analysis',
             },
           ],
@@ -96,11 +96,11 @@ const config: Config = {
           title: 'For Developers',
           items: [
             {
-              label: '🔧 Technical Specs',
+              label: 'Technical Specs',
               to: '/technical-specs',
             },
             {
-              label: '📱 UX Details',
+              label: 'UX Details',
               to: '/mobile-ux-flows',
             },
           ],

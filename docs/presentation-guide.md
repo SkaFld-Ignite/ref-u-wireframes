@@ -4,9 +4,9 @@ title: Presentation Guide
 description: How to use these wireframes effectively in investor presentations
 ---
 
-# 🎯 Ref-U Mermaid Wireframes - Investor Presentation Package
+#  Ref-U Mermaid Wireframes - Investor Presentation Package
 
-## 📋 Package Overview
+##  Package Overview
 
 This folder contains **professional Mermaid diagram wireframes** designed specifically for investor presentations. All diagrams render beautifully in:
 - GitHub/GitLab presentations
@@ -22,7 +22,7 @@ This folder contains **professional Mermaid diagram wireframes** designed specif
 | `Mobile_UX_Mermaid_Flows.md` | **Detailed UX & conversion flows** | Deep-dive product demo |
 | `README_Mermaid_Presentation.md` | **This overview & presentation guide** | Preparation & organization |
 
-## 🚀 Quick Presentation Guide
+##  Quick Presentation Guide
 
 ### For 10-Minute Pitch
 1. **User Journey Flow** - Show user acquisition to revenue
@@ -44,7 +44,7 @@ Include detailed flows:
 11. **Social Commerce Flow** - Viral growth mechanics
 12. **Engagement Metrics** - Long-term retention
 
-## 💡 How to Use These Diagrams
+##  How to Use These Diagrams
 
 ### Option 1: GitHub/Markdown Presentation
 1. Upload files to GitHub repository
@@ -64,7 +64,7 @@ Include detailed flows:
 3. Show responsiveness to feedback
 4. Demonstrate technical sophistication
 
-## 📊 Key Investor Talking Points
+##  Key Investor Talking Points
 
 ### Market Opportunity
 - **$15.2B TAM** in sports media & technology
@@ -103,7 +103,7 @@ Include detailed flows:
 3. Present **revenue flows** (business viability)
 4. End with **growth projections** (investment opportunity)
 
-## 📈 Metrics to Highlight
+##  Metrics to Highlight
 
 ### Current Traction
 - **50K beta users** with 70% retention
@@ -120,7 +120,7 @@ Include detailed flows:
 - **Based on comparables**: DraftKings ($3.3B), FanDuel ($11.2B)
 - **Multiple exit paths** reduce investor risk
 
-## 🔧 Technical Implementation Notes
+##  Technical Implementation Notes
 
 ### Mermaid Rendering
 All diagrams use standard Mermaid syntax and will render in:
@@ -137,7 +137,7 @@ All diagrams use standard Mermaid syntax and will render in:
 
 ---
 
-## 🎯 Ready for Investor Success!
+##  Ready for Investor Success!
 
 These Mermaid wireframes provide a professional, interactive foundation for your investor presentations. The visual clarity and business focus will help communicate the Ref-U opportunity effectively.
 
@@ -147,4 +147,4 @@ These Mermaid wireframes provide a professional, interactive foundation for your
 3. Prepare for investor questions
 4. Schedule investor meetings
 
-*Transform your investor presentations with professional interactive diagrams! 🚀*
+*Transform your investor presentations with professional interactive diagrams! *
