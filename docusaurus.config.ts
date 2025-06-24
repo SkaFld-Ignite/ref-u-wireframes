@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'Revolutionary Sports Fan Engagement Platform - Complete Wireframes Package',
   favicon: 'img/favicon.ico',
 
-  url: 'https://ref-u-wireframes-site-bvrg3l10e-skafld-studio.vercel.app',
+  url: 'https://ref-u-wireframes-site-igzfuf3eg-skafld-studio.vercel.app',
   baseUrl: '/',
 
   organizationName: 'SkaFld-Ignite',
@@ -80,7 +80,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'For Investors',
+          title: 'Business Overview',
           items: [
             {
               label: 'Business Model',
@@ -93,7 +93,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'For Developers',
+          title: 'Technical Details',
           items: [
             {
               label: 'Technical Specs',
@@ -116,6 +116,20 @@ const config: Config = {
       defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: true,
+    },
+    mermaid: {
+      theme: {light: 'neutral', dark: 'dark'},
+      options: {
+        maxTextSize: 50000,
+        fontFamily: 'Inter, system-ui, sans-serif',
+        fontSize: 16,
+        primaryColor: '#3b82f6',
+        primaryTextColor: '#1f2937',
+        primaryBorderColor: '#1e40af',
+        lineColor: '#6b7280',
+        secondaryColor: '#f3f4f6',
+        tertiaryColor: '#ffffff',
+      },
     },
   } satisfies Preset.ThemeConfig,
 };

@@ -39,11 +39,11 @@ graph TD
     R --> U[Repeat Purchases]
     S --> V[Brand Ambassador]
     
-    style A fill:#e3f2fd
-    style O fill:#e8f5e8
-    style Q fill:#f3e5f5
-    style R fill:#fff3e0
-    style X fill:#ffebee
+    style A fill:#e3f2fd,stroke:#1e40af,color:#1f2937
+    style O fill:#e8f5e8,stroke:#059669,color:#1f2937
+    style Q fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
+    style R fill:#fff3e0,stroke:#ea580c,color:#1f2937
+    style X fill:#ffebee,stroke:#dc2626,color:#1f2937
 ```
 
 ## 📱 Platform Architecture Overview
@@ -91,10 +91,10 @@ graph LR
     C4 --> E1
     D3 --> E3
     
-    style A1 fill:#e3f2fd
-    style C3 fill:#e8f5e8
-    style E1 fill:#f3e5f5
-    style E2 fill:#fff3e0
+    style A1 fill:#e3f2fd,stroke:#1e40af,color:#1f2937
+    style C3 fill:#e8f5e8,stroke:#059669,color:#1f2937
+    style E1 fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
+    style E2 fill:#fff3e0,stroke:#ea580c,color:#1f2937
 ```
 
 ## 💰 Revenue Generation Model
@@ -131,11 +131,11 @@ graph TD
     H --> U[$900K ARR Target]
     J --> V[$500K Commerce Revenue]
     
-    style A fill:#f5f5f5
-    style F fill:#e8f5e8
-    style I fill:#fff3e0
-    style U fill:#f3e5f5
-    style V fill:#fce4ec
+    style A fill:#f8fafc,stroke:#64748b,color:#1f2937
+    style F fill:#e8f5e8,stroke:#059669,color:#1f2937
+    style I fill:#fff3e0,stroke:#ea580c,color:#1f2937
+    style U fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
+    style V fill:#fce7f3,stroke:#ec4899,color:#1f2937
 ```
 
 ## 🏀 Live Game Experience Flow
@@ -182,9 +182,9 @@ graph TB
     C2 --> D1
     D1 --> E1
     
-    style B1 fill:#ffebee
-    style D1 fill:#e8f5e8
-    style E1 fill:#e3f2fd
+    style B1 fill:#ffebee,stroke:#dc2626,color:#1f2937
+    style D1 fill:#e8f5e8,stroke:#059669,color:#1f2937
+    style E1 fill:#e3f2fd,stroke:#1e40af,color:#1f2937
 ```
 
 ## 🎮 Gamification System
@@ -230,9 +230,9 @@ graph LR
     B4 --> C5
     B4 --> C6
     
-    style A1 fill:#e8f5e8
-    style B4 fill:#f3e5f5
-    style C6 fill:#fff3e0
+    style A1 fill:#e8f5e8,stroke:#059669,color:#1f2937
+    style B4 fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
+    style C6 fill:#fff3e0,stroke:#ea580c,color:#1f2937
 ```
 
 ## 🛒 E-Commerce Integration
@@ -276,10 +276,10 @@ graph TD
     P --> Q[Friend Referrals]
     Q --> R[Network Growth]
     
-    style A fill:#e8f5e8
-    style F fill:#fff3e0
-    style O fill:#f3e5f5
-    style R fill:#fce4ec
+    style A fill:#e8f5e8,stroke:#059669,color:#1f2937
+    style F fill:#fff3e0,stroke:#ea580c,color:#1f2937
+    style O fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
+    style R fill:#fce7f3,stroke:#ec4899,color:#1f2937
 ```
 
 ## 📈 Market Position Analysis
@@ -324,63 +324,54 @@ graph TB
     
     A --> G
     
-    style A fill:#e8f5e8
-    style B fill:#f5f5f5
-    style C fill:#f5f5f5
-    style D fill:#f5f5f5
-    style E fill:#f5f5f5
-    style G fill:#f3e5f5
+    style A fill:#e8f5e8,stroke:#059669,color:#1f2937
+    style B fill:#f8fafc,stroke:#64748b,color:#1f2937
+    style C fill:#f8fafc,stroke:#64748b,color:#1f2937
+    style D fill:#f8fafc,stroke:#64748b,color:#1f2937
+    style E fill:#f8fafc,stroke:#64748b,color:#1f2937
+    style G fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
 ```
 
-## 🚀 Growth Strategy
+## 🚀 Growth & Expansion Strategy
 
 ```mermaid
-graph LR
-    subgraph "Current Status"
-        A1[50K Beta Users]
-        A2[70% Retention Rate]
-        A3[25+ Min Sessions]
-        A4[ESPN Discussions]
+graph TB
+    subgraph "Current Metrics [Q4 2024]"
+        A1["🎯 50K Beta Users<br/>💪 70% Retention Rate<br/>⏱️ 25+ Min Sessions<br/>📺 ESPN Partnership Talks"]
     end
     
-    subgraph "18-Month Goals"
-        B1[2M Active Users]
-        B2[$2M Monthly Revenue]
-        B3[4 Sports Covered]
-        B4[$50M+ Valuation]
+    subgraph "18-Month Targets [Q2 2026]"
+        B1["👥 2M Active Users<br/>💰 $2M Monthly Revenue<br/>🏆 4 Sports Covered<br/>💎 $50M+ Valuation"]
     end
     
-    subgraph "Expansion Opportunities"
-        C1[Media Partnerships<br/>ESPN, Fox Sports<br/>$50M-$200M]
-        C2[Tech Integration<br/>Meta, Google, Apple<br/>$100M-$500M]
-        C3[League Partnerships<br/>NBA, NFL Direct<br/>$25M-$100M]
-        C4[Public Offering<br/>IPO Potential<br/>$500M+]
+    subgraph "Exit Opportunities [2025-2027]"
+        C1["📺 Media Partnerships<br/>ESPN, Fox Sports<br/>$50M-$200M Acquisition"]
+        C2["🔧 Tech Integration<br/>Meta, Google, Apple<br/>$100M-$500M Acquisition"]
+        C3["🏟️ League Partnerships<br/>NBA, NFL Direct<br/>$25M-$100M Strategic"]
+        C4["📈 Public Markets<br/>IPO Potential<br/>$500M+ Valuation"]
     end
     
-    subgraph "ROI Projections"
-        D1[Seed: $500K to $5M+<br/>10x in 18 months]
-        D2[Series A: $2M to $20M+<br/>10x in 36 months]
-        D3[Comparable exits:<br/>DraftKings ($3.3B)<br/>FanDuel ($11.2B)]
+    subgraph "ROI Analysis"
+        D1["💰 Seed Investment<br/>$500K → $5M+<br/>10x Return (18 months)"]
+        D2["🚀 Series A<br/>$2M → $20M+<br/>10x Return (36 months)"]
+        D3["📊 Comparable Exits<br/>DraftKings: $3.3B<br/>FanDuel: $11.2B<br/>Discord: $15B"]
     end
     
     A1 --> B1
-    A2 --> B2
-    A3 --> B3
-    A4 --> B4
-    
     B1 --> C1
-    B2 --> C2
-    B3 --> C3
-    B4 --> C4
+    B1 --> C2
+    B1 --> C3
+    B1 --> C4
     
     C1 --> D1
     C2 --> D2
-    C3 --> D3
+    C3 --> D1
+    C4 --> D3
     
-    style A1 fill:#e3f2fd
-    style B4 fill:#e8f5e8
-    style C2 fill:#f3e5f5
-    style D2 fill:#fff3e0
+    style A1 fill:#e3f2fd,stroke:#1e40af,color:#1f2937
+    style B1 fill:#e8f5e8,stroke:#059669,color:#1f2937
+    style C2 fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
+    style D2 fill:#fff3e0,stroke:#ea580c,color:#1f2937
 ```
 
 ## 📊 Key Performance Metrics
@@ -388,33 +379,33 @@ graph LR
 ```mermaid
 graph TB
     subgraph "User Engagement"
-        A1[Session Duration<br/>25+ minutes<br/>312% above industry]
-        A2[Retention Rate<br/>70%<br/>75% above industry]
-        A3[Community Participation<br/>80% join cohorts<br/>247% above industry]
+        A1["📊 Session Duration<br/>25+ minutes<br/>312% above industry"]
+        A2["🔄 Retention Rate<br/>70% at 30 days<br/>175% above industry"]
+        A3["👥 Community Participation<br/>80% join cohorts<br/>247% above industry"]
     end
     
     subgraph "Revenue Performance"
-        B1[Premium Conversion<br/>15.2%<br/>204% above industry]
-        B2[Revenue per User<br/>$119/year<br/>Strong LTV]
-        B3[Merchandise Conversion<br/>8.3%<br/>Social commerce leader]
+        B1["💎 Premium Conversion<br/>15.2% rate<br/>204% above industry"]
+        B2["💰 Revenue per User<br/>$119/year LTV<br/>Strong unit economics"]
+        B3["🛒 Merchandise Conversion<br/>8.3% purchase rate<br/>Social commerce leader"]
     end
     
     subgraph "Growth Indicators"
-        C1[Monthly User Growth<br/>15% organic<br/>Viral coefficient 1.3]
-        C2[Content Creation<br/>40% create clips<br/>UGC drives 67% downloads]
-        C3[Word of Mouth<br/>NPS Score 72<br/>Excellent recommendation rate]
+        C1["📈 Monthly User Growth<br/>15% organic<br/>Viral coefficient 1.3"]
+        C2["🎥 Content Creation<br/>40% create clips<br/>UGC drives 67% downloads"]
+        C3["🗣️ Word of Mouth<br/>NPS Score 72<br/>Excellent recommendation rate"]
     end
     
     subgraph "Market Opportunity"
-        D1[Total Market<br/>$15.2B<br/>Sports Media & Tech]
-        D2[Serviceable Market<br/>$2.8B<br/>Interactive Platforms]
-        D3[Target Market<br/>$340M<br/>Youth Sports Engagement]
+        D1["🌐 Total Market<br/>$15.2B TAM<br/>Sports Media & Tech"]
+        D2["�� Serviceable Market<br/>$2.8B SAM<br/>Interactive Platforms"]
+        D3["🏹 Target Market<br/>$340M SOM<br/>Youth Sports Engagement"]
     end
     
-    style A1 fill:#e8f5e8
-    style B1 fill:#f3e5f5
-    style C1 fill:#fff3e0
-    style D1 fill:#e3f2fd
+    style A1 fill:#e8f5e8,stroke:#059669,color:#1f2937
+    style B1 fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
+    style C1 fill:#fff3e0,stroke:#ea580c,color:#1f2937
+    style D1 fill:#e3f2fd,stroke:#1e40af,color:#1f2937
 ```
 
 ---
