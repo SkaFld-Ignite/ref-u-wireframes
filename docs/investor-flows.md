@@ -3,17 +3,19 @@ sidebar_position: 2
 title: Investor Presentation Flows
 description: Core business flows, revenue models, and growth strategy for investor presentations
 ---
-# Ref-U Platform: Mermaid Visual Wireframes for Investors
-*Professional Interactive Diagrams & User Flow Visualization*
 
-##  Executive User Journey Flow
+# 📊 Ref-U Platform: Interactive Business Flows
+
+*Comprehensive business model and revenue visualization using interactive Mermaid diagrams*
+
+## 🎯 Executive User Journey Flow
 
 ```mermaid
 graph TD
     A[Social Media Discovery] --> B[Landing Page Visit]
     B --> C{Compelling Demo?}
     C -->|Yes| D[Sign Up - Google/Apple]
-    C -->|No| X[ 45% Bounce Rate]
+    C -->|No| X[❌ 45% Bounce Rate]
     
     D --> E[5-Step Onboarding]
     E --> F[Sports Selection]
@@ -26,7 +28,7 @@ graph TD
     K --> L[Vote on Referee Call]
     L --> M[+15 XP Earned]
     M --> N[Join Team Cohort]
-    N --> O[ Retained User]
+    N --> O[💰 Retained User]
     
     O --> P{Premium Trigger}
     P -->|Analytics| Q[$9.99/mo Premium]
@@ -44,7 +46,7 @@ graph TD
     style X fill:#ef4444,color:white
 ```
 
-##  Mobile App Architecture & Flow
+## 📱 Mobile App Architecture & Flow
 
 ```mermaid
 graph LR
@@ -95,7 +97,7 @@ graph LR
     style E2 fill:#f59e0b,color:white
 ```
 
-##  Revenue Generation Flow Chart
+## 💰 Revenue Generation Flow Chart
 
 ```mermaid
 graph TD
@@ -126,8 +128,8 @@ graph TD
     Q --> S[Group Purchases]
     Q --> T[Viral Sharing]
     
-    H --> U[ $900K ARR Target]
-    J --> V[ $500K Commerce Revenue]
+    H --> U[📊 $900K ARR Target]
+    J --> V[📊 $500K Commerce Revenue]
     
     style A fill:#6b7280,color:white
     style F fill:#10b981,color:white
@@ -136,7 +138,7 @@ graph TD
     style V fill:#ec4899,color:white
 ```
 
-##  Live Game Experience Wireframe
+## 🏀 Live Game Experience Wireframe
 
 ```mermaid
 graph TB
@@ -147,29 +149,29 @@ graph TB
     
     subgraph "Main Content"
         B1[🚨 BREAKING CALL]
-        B2[ Technical Foul - Curry]
-        B3[▶ Watch 15s Replay]
+        B2[👨‍⚖️ Technical Foul - Curry]
+        B3[▶️ Watch 15s Replay]
         B4[Community: 89% DISAGREE]
     end
     
     subgraph "User Action"
-        C1[ AGREE Button]
-        C2[ DISAGREE Button]
-        C3[ Comment Section]
+        C1[👍 AGREE Button]
+        C2[👎 DISAGREE Button]
+        C3[💬 Comment Section]
     end
     
     subgraph "Engagement Metrics"
         D1[⚡ +15 XP Earned]
-        D2[ 5-Game Streak]
-        D3[ Accuracy: 87%]
-        D4[ Top 5% of Fans]
+        D2[🏆 5-Game Streak]
+        D3[📊 Accuracy: 87%]
+        D4[🎯 Top 5% of Fans]
     end
     
     subgraph "Social Features"
-        E1[ Live Chat - 45 msgs]
-        E2[ Team Cohort Activity]
-        E3[ Share Clip Option]
-        E4[ Predict Next Call]
+        E1[💬 Live Chat - 45 msgs]
+        E2[👥 Team Cohort Activity]
+        E3[📱 Share Clip Option]
+        E4[🎯 Predict Next Call]
     end
     
     A1 --> B1
@@ -250,9 +252,9 @@ graph TD
     E3 --> F
     
     F --> G[Social Proof]
-    G --> H1[ 12 cohort members shopping]
-    G --> H2[ Live purchase updates]
-    G --> H3[ Limited time discount]
+    G --> H1[👥 12 cohort members shopping]
+    G --> H2[💬 Live purchase updates]
+    G --> H3[🔥 Limited time discount]
     
     H1 --> I[Add to Cart]
     H2 --> I
@@ -268,7 +270,7 @@ graph TD
     K3 --> M[Social Commerce<br/>Share with Friends]
     
     L --> N[Order Confirmation]
-    N --> O[ Revenue: $47.50 avg]
+    N --> O[📊 Revenue: $47.50 avg]
     
     M --> P[Viral Sharing]
     P --> Q[Friend Referrals]
@@ -280,7 +282,7 @@ graph TD
     style R fill:#ec4899,color:white
 ```
 
-##  Market Competition Analysis
+## 📈 Market Competition Analysis
 
 ```mermaid
 graph TB
@@ -330,7 +332,7 @@ graph TB
     style G fill:#8b5cf6,color:white
 ```
 
-##  Growth & Exit Strategy
+## 🚀 Growth & Exit Strategy
 
 ```mermaid
 graph LR
@@ -381,7 +383,7 @@ graph LR
     style D2 fill:#f59e0b,color:white
 ```
 
-##  Key Metrics Dashboard
+## 📊 Key Metrics Dashboard
 
 ```mermaid
 graph TB
@@ -404,9 +406,9 @@ graph TB
     end
     
     subgraph "Market Opportunity"
-        D1[Total Addressable Market<br/>$15.2B<br/> Sports Media & Tech]
-        D2[Serviceable Market<br/>$2.8B<br/> Interactive Platforms]
-        D3[Obtainable Market<br/>$340M<br/> Youth Sports Engagement]
+        D1[Total Addressable Market<br/>$15.2B<br/>🎯 Sports Media & Tech]
+        D2[Serviceable Market<br/>$2.8B<br/>🎯 Interactive Platforms]
+        D3[Obtainable Market<br/>$340M<br/>🎯 Youth Sports Engagement]
     end
     
     style A1 fill:#10b981,color:white
@@ -419,4 +421,4 @@ graph TB
 
 *These Mermaid diagrams provide a professional, interactive visualization of the Ref-U platform for investor presentations. Each diagram can be rendered in presentation software, GitHub, or any Mermaid-compatible viewer for maximum impact.*
 
-** Ready for investor presentation with professional interactive diagrams!**
+**🎯 Ready for investor presentation with professional interactive diagrams!**
