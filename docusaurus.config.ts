@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'Revolutionary Sports Fan Engagement Platform - Complete Wireframes Package',
   favicon: 'img/favicon.ico',
 
-  url: 'https://ref-u-wireframes.vercel.app',
+  url: 'https://ref-u-wireframes-site-4dkbhhif6-skafld-studio.vercel.app',
   baseUrl: '/',
 
   organizationName: 'SkaFld-Ignite',
@@ -33,8 +33,10 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: '/',
+          sidebarCollapsed: false,
         },
         blog: false,
+        pages: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -46,33 +48,20 @@ const config: Config = {
     image: 'img/ref-u-social-card.jpg',
     navbar: {
       title: 'Ref-U Wireframes',
-      logo: {
-        alt: 'Ref-U Platform Logo',
-        src: 'img/logo.svg',
-      },
+      hideOnScroll: false,
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'wireframesSidebar',
-          position: 'left',
-          label: '📱 Wireframes',
-        },
-        {
-          to: '/visual-wireframes',
-          position: 'left',
-          label: '🎨 Visual Mockups',
-        },
-        {
-          to: '/investor-flows',
-          position: 'left',
-          label: '💼 For Investors',
-        },
         {
           href: 'https://github.com/SkaFld-Ignite/ref-u-wireframes',
           label: 'GitHub',
           position: 'right',
         },
       ],
+    },
+    docs: {
+      sidebar: {
+        hideable: false,
+        autoCollapseCategories: false,
+      },
     },
     footer: {
       style: 'dark',
@@ -98,7 +87,7 @@ const config: Config = {
               to: '/investor-flows',
             },
             {
-              label: '�� Market Analysis',
+              label: '📈 Market Analysis',
               to: '/market-analysis',
             },
           ],
@@ -116,21 +105,8 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: 'More',
-          items: [
-            {
-              label: '📋 How to Present',
-              to: '/presentation-guide',
-            },
-            {
-              label: 'GitHub Repository',
-              href: 'https://github.com/SkaFld-Ignite/ref-u-wireframes',
-            },
-          ],
-        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Ref-U Platform. Professional wireframes for revolutionary sports fan engagement.`,
+      copyright: `Professional wireframes for revolutionary sports fan engagement platform.`,
     },
     prism: {
       theme: prismThemes.github,
