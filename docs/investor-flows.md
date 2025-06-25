@@ -46,7 +46,7 @@ graph TD
     style X fill:#ffebee,stroke:#dc2626,color:#1f2937
 ```
 
-## 📱 Platform Architecture Overview
+## �� Platform Architecture Overview
 
 ```mermaid
 graph LR
@@ -337,41 +337,24 @@ graph TB
 ```mermaid
 graph TB
     subgraph "Current Status Q4 2024"
-        A1["50K Beta Users
-        70% Retention Rate
-        25+ Min Sessions
-        ESPN Partnership Talks"]
+        A1[50K Beta Users • 70% Retention • 25+ Min Sessions • ESPN Partnership Talks]
     end
     
     subgraph "18-Month Goals Q2 2026"
-        B1["2M Active Users
-        2M Monthly Revenue
-        4 Sports Covered
-        50M+ Valuation"]
+        B1[2M Active Users • 2M Monthly Revenue • 4 Sports Covered • 50M+ Valuation]
     end
     
     subgraph "Exit Opportunities 2025-2027"
-        C1["Media Partnerships
-        ESPN Fox Sports
-        50M-200M Acquisition"]
-        C2["Tech Integration
-        Meta Google Apple
-        100M-500M Acquisition"]
-        C3["League Partnerships
-        NBA NFL Direct
-        25M-100M Strategic"]
-        C4["Public Markets
-        IPO Potential
-        500M+ Valuation"]
+        C1[Media Partnerships: ESPN Fox Sports • 50M-200M Acquisition]
+        C2[Tech Integration: Meta Google Apple • 100M-500M Acquisition]
+        C3[League Partnerships: NBA NFL Direct • 25M-100M Strategic]
+        C4[Public Markets: IPO Potential • 500M+ Valuation]
     end
     
     subgraph "ROI Analysis"
-        D1["Seed Investment
-        500K to 5M+
-        10x Return 18 months"]
-        D2["Series A
-        2M to 20M+
-                D3["Comparable Exits: DraftKings 3.3B, FanDuel 11.2B, Discord 15B"]
+        D1[Seed Investment: 500K to 5M+ • 10x Return 18 months]
+        D2[Series A: 2M to 20M+ • 10x Return 36 months]
+        D3[Comparable Exits: DraftKings 3.3B • FanDuel 11.2B • Discord 15B]
     end
     
     A1 --> B1
@@ -396,51 +379,27 @@ graph TB
 ```mermaid
 graph TB
     subgraph "User Engagement"
-        A1["Session Duration
-        25+ minutes
-        312% above industry"]
-        A2["Retention Rate
-        70% at 30 days
-        175% above industry"]
-        A3["Community Participation
-        80% join cohorts
-        247% above industry"]
+        A1[Session Duration: 25+ minutes • 312% above industry]
+        A2[Retention Rate: 70% at 30 days • 175% above industry]
+        A3[Community Participation: 80% join cohorts • 247% above industry]
     end
     
     subgraph "Revenue Performance"
-        B1["Premium Conversion
-        15.2% rate
-        204% above industry"]
-        B2["Revenue per User
-        119 per year LTV
-        Strong unit economics"]
-        B3["Merchandise Conversion
-        8.3% purchase rate
-        Social commerce leader"]
+        B1[Premium Conversion: 15.2% rate • 204% above industry]
+        B2[Revenue per User: 119 per year LTV • Strong unit economics]
+        B3[Merchandise Conversion: 8.3% purchase rate • Social commerce leader]
     end
     
     subgraph "Growth Indicators"
-        C1["Monthly User Growth
-        15% organic
-        Viral coefficient 1.3"]
-        C2["Content Creation
-        40% create clips
-        UGC drives 67% downloads"]
-        C3["Word of Mouth
-        NPS Score 72
-        Excellent recommendation rate"]
+        C1[Monthly User Growth: 15% organic • Viral coefficient 1.3]
+        C2[Content Creation: 40% create clips • UGC drives 67% downloads]
+        C3[Word of Mouth: NPS Score 72 • Excellent recommendation rate]
     end
     
     subgraph "Market Opportunity"
-        D1["Total Market
-        15.2B TAM
-        Sports Media & Tech"]
-        D2["Serviceable Market
-        2.8B SAM
-        Interactive Platforms"]
-        D3["Target Market
-        340M SOM
-        Youth Sports Engagement"]
+        D1[Total Market: 15.2B TAM • Sports Media & Tech]
+        D2[Serviceable Market: 2.8B SAM • Interactive Platforms]
+        D3[Target Market: 340M SOM • Youth Sports Engagement]
     end
     
     style A1 fill:#e8f5e8,stroke:#059669,color:#1f2937
