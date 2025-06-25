@@ -336,28 +336,25 @@ graph TB
 
 ```mermaid
 graph TB
-    subgraph one ["📊 Current Status Q4 2024"]
-        A1["50K Beta Users•70% Retention Rate•25+ Min Sessions•ESPN Partnership Talks"]
+    subgraph "Current Status Q4 2024"
+        A1[50K Beta Users • 70% Retention • 25+ Min Sessions • ESPN Partnership Talks]
     end
     
-    subgraph two ["🎯 18-Month Goals Q2 2026"]
-        B1["2M Active Users•2M Monthly Revenue•4 Sports Covered•50M+ Valuation"]
+    subgraph "18-Month Goals Q2 2026"
+        B1[2M Active Users • 2M Monthly Revenue • 4 Sports Covered • 50M+ Valuation]
     end
     
-    subgraph three ["🚀 Exit Opportunities 2025-2027"]
-        C1["Media Partnerships•ESPN • Fox Sports•50M-200M Acquisition"]
-        C2["Tech Integration•Meta • Google • Apple•100M-500M Acquisition"]
-        
-        C3["League Partnerships•NBA • NFL Direct•25M-100M Strategic"]
-        C4["Public Markets•IPO Potential•500M+ Valuation"]
+    subgraph "Exit Opportunities 2025-2027"
+        C1[Media Partnerships: ESPN Fox Sports • 50M-200M Acquisition]
+        C2[Tech Integration: Meta Google Apple • 100M-500M Acquisition]
+        C3[League Partnerships: NBA NFL Direct • 25M-100M Strategic]
+        C4[Public Markets: IPO Potential • 500M+ Valuation]
     end
     
-    subgraph four ["💰 ROI Analysis"]
-        D1["Seed Investment•500K to 5M+•10x Return 18 months"]
-        
-        D2["Series A•2M to 20M+•10x Return 36 months"]
-        
-        D3["Comparable Exits•DraftKings USD 3.3B•FanDuel USD 11.2B•Discord USD 15B"]
+    subgraph "ROI Analysis"
+        D1[Seed Investment: 500K to 5M+ • 10x Return 18 months]
+        D2[Series A: 2M to 20M+ • 10x Return 36 months]
+        D3[Comparable Exits: DraftKings USD 3.3B, FanDuel USD 11.2B, Discord USD 15B]
     end
     
     A1 --> B1
@@ -373,13 +370,8 @@ graph TB
     
     style A1 fill:#e3f2fd,stroke:#1e40af,color:#1f2937
     style B1 fill:#e8f5e8,stroke:#059669,color:#1f2937
-    style C1 fill:#fff3e0,stroke:#ea580c,color:#1f2937
     style C2 fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
-    style C3 fill:#fff3e0,stroke:#ea580c,color:#1f2937
-    style C4 fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
-    style D1 fill:#fef3c7,stroke:#d97706,color:#1f2937
-    style D2 fill:#fef3c7,stroke:#d97706,color:#1f2937
-    style D3 fill:#fef3c7,stroke:#d97706,color:#1f2937
+    style D2 fill:#fff3e0,stroke:#ea580c,color:#1f2937
 ```
 
 ## 📊 Key Performance Metrics
