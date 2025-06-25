@@ -101,18 +101,18 @@ graph LR
 
 ```mermaid
 graph TD
-    A[Free User Base<br/>50,000 users] --> B{Engagement Level}
+    A[Free User Base - 50,000 users] --> B{Engagement Level}
     
-    B -->|High Engagement| C[Premium Conversion<br/>15.2% rate]
-    B -->|Medium Engagement| D[Merchandise Interest<br/>8.3% conversion]
-    B -->|Low Engagement| E[Retention Programs<br/>Win-back campaigns]
+    B -->|High Engagement| C[Premium Conversion - 15.2% rate]
+    B -->|Medium Engagement| D[Merchandise Interest - 8.3% conversion]
+    B -->|Low Engagement| E[Retention Programs - Win-back campaigns]
     
-    C --> F[Premium Subscriber<br/>$9.99/month]
+    C --> F[Premium Subscriber - $9.99/month]
     F --> G[85% Retention Rate]
     G --> H[$119 Annual LTV]
     
-    D --> I[Team Store Purchase<br/>$47.50 avg order]
-    I --> J[Repeat Customer<br/>$23.40/month]
+    D --> I[Team Store Purchase - $47.50 avg order]
+    I --> J[Repeat Customer - $23.40/month]
     
     E --> K{Re-engagement Success?}
     K -->|Yes| B
@@ -192,19 +192,19 @@ graph TB
 ```mermaid
 graph LR
     subgraph "XP Earning Actions"
-        A1[Vote on Call<br/>+15 XP]
-        A2[Correct Prediction<br/>+25 XP]
-        A3[Helpful Comment<br/>+10 XP]
-        A4[Share Clip<br/>+20 XP]
-        A5[Daily Login<br/>+5 XP]
-        A6[Invite Friend<br/>+100 XP]
+        A1[Vote on Call +15 XP]
+        A2[Correct Prediction +25 XP]
+        A3[Helpful Comment +10 XP]
+        A4[Share Clip +20 XP]
+        A5[Daily Login +5 XP]
+        A6[Invite Friend +100 XP]
     end
     
     subgraph "Level Progression"
-        B1[Rookie Fan<br/>0-500 XP]
-        B2[Dedicated Fan<br/>500-2000 XP]
-        B3[Expert Fan<br/>2000-5000 XP]
-        B4[Referee Master<br/>5000+ XP]
+        B1[Rookie Fan 0-500 XP]
+        B2[Dedicated Fan 500-2000 XP]
+        B3[Expert Fan 2000-5000 XP]
+        B4[Referee Master 5000+ XP]
     end
     
     subgraph "Rewards & Benefits"
@@ -243,11 +243,11 @@ graph TD
     B --> C[Contextual Store Display]
     
     C --> D[Featured Products]
-    D --> E1[LeBron Jersey<br/>$89.99]
-    D --> E2[Team Hat<br/>$34.99]
-    D --> E3[Championship Hoodie<br/>$64.99]
+    D --> E1[LeBron Jersey $89.99]
+    D --> E2[Team Hat $34.99]
+    D --> E3[Championship Hoodie $64.99]
     
-    E1 --> F[Member Discount<br/>-15% off]
+    E1 --> F[Member Discount -15% off]
     E2 --> F
     E3 --> F
     
@@ -267,7 +267,7 @@ graph TD
     
     K1 --> L[Purchase Complete]
     K2 --> L
-    K3 --> M[Social Commerce<br/>Share with Friends]
+    K3 --> M[Social Commerce Share with Friends]
     
     L --> N[Order Confirmation]
     N --> O[Revenue: $47.50 avg]
@@ -319,7 +319,7 @@ graph TB
     E --> F4
     
     subgraph "Unique Value Proposition"
-        G[Only platform combining<br/>real-time referee analysis<br/>with educational content<br/>and youth-safe community]
+        G[Only platform combining real-time referee analysis with educational content and youth-safe community]
     end
     
     A --> G
@@ -336,25 +336,46 @@ graph TB
 
 ```mermaid
 graph TB
-    subgraph "Current Metrics [Q4 2024]"
-        A1["🎯 50K Beta Users<br/>💪 70% Retention Rate<br/>⏱️ 25+ Min Sessions<br/>📺 ESPN Partnership Talks"]
+    subgraph "Current Status Q4 2024"
+        A1["50K Beta Users
+        70% Retention Rate
+        25+ Min Sessions
+        ESPN Partnership Talks"]
     end
     
-    subgraph "18-Month Targets [Q2 2026]"
-        B1["👥 2M Active Users<br/>💰 $2M Monthly Revenue<br/>🏆 4 Sports Covered<br/>💎 $50M+ Valuation"]
+    subgraph "18-Month Goals Q2 2026"
+        B1["2M Active Users
+        2M Monthly Revenue
+        4 Sports Covered
+        50M+ Valuation"]
     end
     
-    subgraph "Exit Opportunities [2025-2027]"
-        C1["📺 Media Partnerships<br/>ESPN, Fox Sports<br/>$50M-$200M Acquisition"]
-        C2["🔧 Tech Integration<br/>Meta, Google, Apple<br/>$100M-$500M Acquisition"]
-        C3["🏟️ League Partnerships<br/>NBA, NFL Direct<br/>$25M-$100M Strategic"]
-        C4["📈 Public Markets<br/>IPO Potential<br/>$500M+ Valuation"]
+    subgraph "Exit Opportunities 2025-2027"
+        C1["Media Partnerships
+        ESPN Fox Sports
+        50M-200M Acquisition"]
+        C2["Tech Integration
+        Meta Google Apple
+        100M-500M Acquisition"]
+        C3["League Partnerships
+        NBA NFL Direct
+        25M-100M Strategic"]
+        C4["Public Markets
+        IPO Potential
+        500M+ Valuation"]
     end
     
     subgraph "ROI Analysis"
-        D1["💰 Seed Investment<br/>$500K → $5M+<br/>10x Return (18 months)"]
-        D2["🚀 Series A<br/>$2M → $20M+<br/>10x Return (36 months)"]
-        D3["📊 Comparable Exits<br/>DraftKings: $3.3B<br/>FanDuel: $11.2B<br/>Discord: $15B"]
+        D1["Seed Investment
+        500K to 5M+
+        10x Return 18 months"]
+        D2["Series A
+        2M to 20M+
+        10x Return 36 months"]
+        D3["Comparable Exits
+        DraftKings 3.3B
+        FanDuel 11.2B
+        Discord 15B"]
     end
     
     A1 --> B1
@@ -379,27 +400,51 @@ graph TB
 ```mermaid
 graph TB
     subgraph "User Engagement"
-        A1["📊 Session Duration<br/>25+ minutes<br/>312% above industry"]
-        A2["🔄 Retention Rate<br/>70% at 30 days<br/>175% above industry"]
-        A3["👥 Community Participation<br/>80% join cohorts<br/>247% above industry"]
+        A1["Session Duration
+        25+ minutes
+        312% above industry"]
+        A2["Retention Rate
+        70% at 30 days
+        175% above industry"]
+        A3["Community Participation
+        80% join cohorts
+        247% above industry"]
     end
     
     subgraph "Revenue Performance"
-        B1["💎 Premium Conversion<br/>15.2% rate<br/>204% above industry"]
-        B2["💰 Revenue per User<br/>$119/year LTV<br/>Strong unit economics"]
-        B3["🛒 Merchandise Conversion<br/>8.3% purchase rate<br/>Social commerce leader"]
+        B1["Premium Conversion
+        15.2% rate
+        204% above industry"]
+        B2["Revenue per User
+        119 per year LTV
+        Strong unit economics"]
+        B3["Merchandise Conversion
+        8.3% purchase rate
+        Social commerce leader"]
     end
     
     subgraph "Growth Indicators"
-        C1["📈 Monthly User Growth<br/>15% organic<br/>Viral coefficient 1.3"]
-        C2["🎥 Content Creation<br/>40% create clips<br/>UGC drives 67% downloads"]
-        C3["🗣️ Word of Mouth<br/>NPS Score 72<br/>Excellent recommendation rate"]
+        C1["Monthly User Growth
+        15% organic
+        Viral coefficient 1.3"]
+        C2["Content Creation
+        40% create clips
+        UGC drives 67% downloads"]
+        C3["Word of Mouth
+        NPS Score 72
+        Excellent recommendation rate"]
     end
     
     subgraph "Market Opportunity"
-        D1["🌐 Total Market<br/>$15.2B TAM<br/>Sports Media & Tech"]
-        D2["�� Serviceable Market<br/>$2.8B SAM<br/>Interactive Platforms"]
-        D3["🏹 Target Market<br/>$340M SOM<br/>Youth Sports Engagement"]
+        D1["Total Market
+        15.2B TAM
+        Sports Media & Tech"]
+        D2["Serviceable Market
+        2.8B SAM
+        Interactive Platforms"]
+        D3["Target Market
+        340M SOM
+        Youth Sports Engagement"]
     end
     
     style A1 fill:#e8f5e8,stroke:#059669,color:#1f2937
