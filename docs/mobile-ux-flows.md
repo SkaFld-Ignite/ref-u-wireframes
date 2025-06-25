@@ -5,9 +5,10 @@ description: Detailed mobile user experience flows and conversion funnels
 ---
 
 # Mobile UX Flows - Mermaid Wireframes
+
 *Detailed Mobile User Experience Visualization*
 
-##  Mobile Onboarding Flow (375px)
+## Mobile Onboarding Flow (375px)
 
 ```mermaid
 journey
@@ -36,7 +37,7 @@ journey
       Become Power User: 10: User
 ```
 
-##  Live Game Interface State Diagram
+## Live Game Interface State Diagram
 
 ```mermaid
 stateDiagram-v2
@@ -70,41 +71,41 @@ stateDiagram-v2
     NoGames --> GameSelection : Refresh
 ```
 
-##  Revenue Conversion Funnel
+## Revenue Conversion Funnel
 
 ```mermaid
 graph TD
-    A[Free User<br/>100%] --> B{First Premium Trigger}
+    A[Free User 100%] --> B{First Premium Trigger}
     
-    B -->|Advanced Analytics| C[Paywall Encounter<br/>34%]
-    B -->|Prediction Limit| D[Usage Limit Hit<br/>28%]
-    B -->|Exclusive Content| E[Content Gate<br/>15%]
+    B -->|Advanced Analytics| C[Paywall Encounter 34%]
+    B -->|Prediction Limit| D[Usage Limit Hit 28%]
+    B -->|Exclusive Content| E[Content Gate 15%]
     
     C --> F{Conversion Decision}
     D --> F
     E --> F
     
-    F -->|Subscribe| G[Premium Trial Start<br/>15.2%]
-    F -->|Decline| H[Continue Free<br/>84.8%]
+    F -->|Subscribe| G[Premium Trial Start 15.2%]
+    F -->|Decline| H[Continue Free 84.8%]
     
     G --> I[7-Day Free Trial]
     I --> J{Trial Experience}
     
-    J -->|Positive| K[Convert to Paid<br/>73%]
-    J -->|Negative| L[Cancel Trial<br/>27%]
+    J -->|Positive| K[Convert to Paid 73%]
+    J -->|Negative| L[Cancel Trial 27%]
     
-    K --> M[Monthly Subscriber<br/>$9.99]
+    K --> M[Monthly Subscriber 9.99 USD]
     M --> N{Retention Check}
     
-    N -->|Stay| O[Retained User<br/>85%]
-    N -->|Churn| P[Churned User<br/>15%]
+    N -->|Stay| O[Retained User 85%]
+    N -->|Churn| P[Churned User 15%]
     
     H --> Q[Re-engagement Campaign]
     Q --> R{Second Chance}
     R -->|Convert| G
     R -->|Remain Free| S[Free User Lifecycle]
     
-    O --> T[Annual LTV: $119]
+    O --> T[Annual LTV: 119 USD]
     L --> U[Feedback Collection]
     P --> U
     
@@ -267,7 +268,7 @@ graph TB
     style F4 fill:#ec4899,color:white
 ```
 
-##  Mobile Screen Flow Hierarchy
+## Mobile Screen Flow Hierarchy
 
 ```mermaid
 graph TD
@@ -323,7 +324,7 @@ graph TD
     style Z fill:#f59e0b,color:white
 ```
 
-##  User Engagement Metrics Flow
+## User Engagement Metrics Flow
 
 ```mermaid
 graph LR

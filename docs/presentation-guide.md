@@ -117,7 +117,7 @@ Include detailed flows:
 
 ### ROI Potential
 - **10x returns** in 18 months (seed stage)
-- **Based on comparables**: DraftKings ($3.3B), FanDuel ($11.2B)
+- **Based on comparables**: DraftKings 3.3B, FanDuel 11.2B
 - **Multiple exit paths** reduce investor risk
 
 ##  Technical Implementation Notes

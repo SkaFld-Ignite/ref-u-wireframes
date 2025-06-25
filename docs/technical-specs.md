@@ -4,7 +4,7 @@ title: Technical Specifications
 description: Technical architecture, infrastructure, and implementation details
 ---
 
-#  Technical Specifications
+# Technical Specifications
 
 ## Platform Architecture
 
@@ -104,9 +104,9 @@ graph LR
     A[MVP: 50K users] --> B[Growth: 500K users]
     B --> C[Scale: 2M+ users]
     
-    A --> D[Single Region<br/>Basic Infrastructure]
-    B --> E[Multi-Region<br/>Load Balancing]
-    C --> F[Global CDN<br/>Microservices]
+    A --> D[Single Region Basic Infrastructure]
+    B --> E[Multi-Region Load Balancing]
+    C --> F[Global CDN Microservices]
     
     style A fill:#10b981,color:white
     style B fill:#f59e0b,color:white
