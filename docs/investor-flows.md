@@ -354,7 +354,7 @@ graph TB
     subgraph "ROI Analysis"
         D1[Seed Investment: 500K to 5M+ • 10x Return 18 months]
         D2[Series A: 2M to 20M+ • 10x Return 36 months]
-        D3[Comparable Exits: DraftKings 3.3B • FanDuel 11.2B • Discord 15B]
+        D3[Comparable Exits: DraftKings USD 3.3B, FanDuel USD 11.2B, Discord USD 15B]
     end
     
     A1 --> B1
