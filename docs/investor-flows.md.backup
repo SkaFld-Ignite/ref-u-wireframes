@@ -371,7 +371,11 @@ graph TB
         10x Return 18 months"]
         D2["Series A
         2M to 20M+
-                D3["Comparable Exits: DraftKings 3.3B, FanDuel 11.2B, Discord 15B"]
+        10x Return 36 months"]
+        D3["Comparable Exits
+        DraftKings 3.3B
+        FanDuel 11.2B
+        Discord 15B"]
     end
     
     A1 --> B1
