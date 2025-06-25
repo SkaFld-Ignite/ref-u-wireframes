@@ -31,8 +31,8 @@ graph TD
     N --> O[Retained User]
     
     O --> P{Monetization Trigger}
-    P -->|Analytics| Q[$9.99/mo Premium]
-    P -->|Merchandise| R[$47 Team Store]
+    P -->|Analytics| Q[9.99/mo Premium]
+    P -->|Merchandise| R[47 USD Team Store]
     P -->|Content| S[VIP Access]
     
     Q --> T[85% Retention Rate]
@@ -107,12 +107,12 @@ graph TD
     B -->|Medium Engagement| D[Merchandise Interest - 8.3% conversion]
     B -->|Low Engagement| E[Retention Programs - Win-back campaigns]
     
-    C --> F[Premium Subscriber - $9.99/month]
+    C --> F[Premium Subscriber - 9.99/month]
     F --> G[85% Retention Rate]
-    G --> H[$119 Annual LTV]
+    G --> H[119 USD Annual LTV]
     
-    D --> I[Team Store Purchase - $47.50 avg order]
-    I --> J[Repeat Customer - $23.40/month]
+    D --> I[Team Store Purchase - 47.50 avg order]
+    I --> J[Repeat Customer - 23.40/month]
     
     E --> K{Re-engagement Success?}
     K -->|Yes| B
@@ -128,8 +128,8 @@ graph TD
     Q --> S[Group Purchases]
     Q --> T[Viral Sharing]
     
-    H --> U[$900K ARR Target]
-    J --> V[$500K Commerce Revenue]
+    H --> U[900K ARR Target]
+    J --> V[500K Commerce Revenue]
     
     style A fill:#f8fafc,stroke:#64748b,color:#1f2937
     style F fill:#e8f5e8,stroke:#059669,color:#1f2937
@@ -243,9 +243,9 @@ graph TD
     B --> C[Contextual Store Display]
     
     C --> D[Featured Products]
-    D --> E1[LeBron Jersey $89.99]
-    D --> E2[Team Hat $34.99]
-    D --> E3[Championship Hoodie $64.99]
+    D --> E1[LeBron Jersey 89.99 USD]
+    D --> E2[Team Hat 34.99 USD]
+    D --> E3[Championship Hoodie 64.99 USD]
     
     E1 --> F[Member Discount -15% off]
     E2 --> F
@@ -270,7 +270,7 @@ graph TD
     K3 --> M[Social Commerce Share with Friends]
     
     L --> N[Order Confirmation]
-    N --> O[Revenue: $47.50 avg]
+    N --> O[Revenue: 47.50 avg]
     
     M --> P[Viral Sharing]
     P --> Q[Friend Referrals]
