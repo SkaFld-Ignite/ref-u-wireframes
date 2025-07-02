@@ -26,7 +26,7 @@ const Slide06Financials = () => {
           <div className="metric-value" style={{color: '#059669'}}>
             $17K
           </div>
-          <p>1K Beta Users</p>
+          <p>Pre-Beta MVP</p>
         </div>
         
         <div className="metric-card">
