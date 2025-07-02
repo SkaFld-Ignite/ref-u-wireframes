@@ -287,7 +287,7 @@ graph TB
     end
     
     subgraph "Target Projections"
-        A1[Year 1: 1K Beta Users]
+        A1[Year 1: Pre-Beta MVP]
         A2[Year 2: 25K Active Users]
         A3[Year 3: 100K Active Users]
     end
