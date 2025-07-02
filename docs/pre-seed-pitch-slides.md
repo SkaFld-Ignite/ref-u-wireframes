@@ -275,14 +275,44 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
 
 .slide-team .key-point {
   border-left-color: #7c3aed;
+  padding: 1rem;
+  margin: 0.4rem 0;
 }
 
 .slide-team .key-point h3 {
   color: #7c3aed;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
 }
 
-/* === CONTENT SCALING === */
-.main-content {
+.slide-team .key-point h4 {
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.slide-team .key-point p {
+  font-size: 0.85rem;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.slide-team .key-point div[style*="margin: 1rem 0"] {
+
+/* Compact team slide layout */
+.slide-team .slide-content {
+  padding: 35px 45px;
+}
+
+.slide-team .main-content {
+  gap: 1.2rem;
+}
+
+.slide-team .two-column {
+  gap: 1.5rem;
+  align-items: stretch;
+}  margin: 0.5rem 0 !important;
+}.main-content {
   flex: 1;
   display: flex;
   flex-direction: column;
