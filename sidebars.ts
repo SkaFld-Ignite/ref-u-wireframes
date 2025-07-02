@@ -26,6 +26,14 @@ const sidebars: SidebarsConfig = {
         'technical-specs',
       ],
     },
+    {
+      type: 'category',
+      label: '🤖 AI Tools',
+      collapsed: false,
+      items: [
+        'ai-editor-demo',
+      ],
+    },
   ],
 };
 
