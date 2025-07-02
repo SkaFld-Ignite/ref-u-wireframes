@@ -9,7 +9,7 @@ const Slide06Financials = () => {
       theme="default"
     >
       <h1 className="slide-title">
-        Conservative path to $1.2M ARR in 36 months
+        Path to $10M ARR by Month 36
       </h1>
       
       <div className="four-column">
@@ -24,25 +24,25 @@ const Slide06Financials = () => {
         <div className="metric-card">
           <h3 style={{color: '#059669'}}>Month 12</h3>
           <div className="metric-value" style={{color: '#059669'}}>
-            $17K
+            $250K
           </div>
-          <p>Pre-Beta MVP</p>
+          <p>Beta Launch Q4 2025</p>
         </div>
         
         <div className="metric-card">
           <h3 style={{color: '#2563EB'}}>Month 24</h3>
           <div className="metric-value" style={{color: '#2563EB'}}>
-            $300K
+            $3.2M
           </div>
-          <p>25K Active Users</p>
+          <p>Total Breakeven</p>
         </div>
         
         <div className="metric-card">
           <h3 style={{color: '#7c3aed'}}>Month 36</h3>
           <div className="metric-value" style={{color: '#7c3aed'}}>
-            $1.2M
+            $10M
           </div>
-          <p>100K Active Users</p>
+          <p>Scale & Series A</p>
         </div>
       </div>
       
@@ -60,9 +60,9 @@ const Slide06Financials = () => {
         <div className="key-point">
           <h3>🔥 Key Milestones</h3>
           <p>
-            • Beta Launch: Q1 2025<br/>
-            • Product-market fit: Month 18<br/>
-            • Break-even: Month 30<br/>
+            • Beta Launch: Q4 2025 (Month 12)<br/>
+            • Monthly Breakeven: Month 18<br/>
+            • Total Breakeven: Month 24<br/>
             • Series A ready: Month 24-30
           </p>
         </div>

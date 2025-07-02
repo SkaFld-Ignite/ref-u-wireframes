@@ -9,7 +9,7 @@ description: Core business flows, revenue models, and growth strategy
 *Comprehensive business model and revenue visualization using interactive diagrams*
 
 <div style={{background: '#e0f2fe', border: '2px solid #0277bd', borderRadius: '8px', padding: '1rem', margin: '1rem 0', fontSize: '0.9rem', color: '#01579b'}}>
-<strong>📍 Current Stage:</strong> Pre-Beta Development - All user metrics and revenue figures represent projections based on industry benchmarks and market research. Currently building MVP for Q1 2025 beta launch.
+<strong>📍 Current Stage:</strong> Pre-Beta Development - All user metrics and revenue figures represent projections based on industry benchmarks and market research. Currently building MVP for Q4 2025 beta launch.
 </div>
 
 ## 🎯 User Journey & Revenue Flow
@@ -54,7 +54,7 @@ graph TD
 
 ```mermaid
 graph TD
-    A[Target Beta Launch - 1K Users] --> B{Engagement Level}
+    A[Beta Launch Q4 2025] --> B{Engagement Level}
     
     B -->|High Engagement| C[Premium Conversion - 12% rate⁴]
     B -->|Medium Engagement| D[Merchandise Interest - 6.8% conversion⁵]
@@ -81,7 +81,7 @@ graph TD
     Q --> S[Group Purchases]
     Q --> T[Viral Sharing]
     
-    H --> U[14K ARR Target Year 1]
+    H --> U[250K ARR Target Year 1]
     J --> V[3.2K Commerce Revenue Year 1]
     
     style A fill:#f8fafc,stroke:#64748b,color:#1f2937
@@ -246,12 +246,12 @@ graph TB
         A1[Pre-Beta Development • MVP 85% Complete • Team Assembled • Seeking Funding]
     end
     
-    subgraph "6-Month Goals Q2 2025"
-        B1[1K Beta Users • Product-Market Fit Testing • Core Features Live]
+    subgraph "12-Month Goals Q4 2025"
+        B1[Beta Launch Q4 2025 • $250K ARR • Product-Market Fit Testing]
     end
     
-    subgraph "18-Month Goals Q2 2026"
-        C1[25K Active Users • 300K Monthly Revenue • 3 Sports Covered • Series A Ready]
+    subgraph "24-Month Goals 2026"
+        C1[Monthly Breakeven Month 18 • Total Breakeven Month 24 • $3.2M ARR • Series A Ready]
     end
     
     subgraph "Exit Opportunities 2026-2028"
@@ -293,9 +293,9 @@ graph TB
     end
     
     subgraph "Revenue Targets"
-        B1[Year 1: $17K ARR]
-        B2[Year 2: $300K ARR]
-        B3[Year 3: $1.2M ARR]
+        B1[Year 1: $250K ARR]
+        B2[Year 2: $3.2M ARR]
+        B3[Year 3: $10M ARR]
     end
     
     D1 --> D2 --> D3
