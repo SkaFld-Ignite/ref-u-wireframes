@@ -893,7 +893,7 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
     <div>
       <h1 className="slide-title">
         <span className="editable-text" contentEditable suppressContentEditableWarning>
-          Conservative path to $10M ARR in 36 months
+          Conservative path to $1.2M ARR in 36 months
           <span className="edit-indicator">✏️</span>
         </span>
       </h1>
@@ -953,13 +953,13 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
           <h3 style={{color: '#7c3aed'}}>Month 36</h3>
           <div className="metric-value" style={{color: '#7c3aed'}}>
             <span className="editable-text" contentEditable suppressContentEditableWarning>
-              $10M<a href="#" className="citation">¹²</a>
+              $1.2M<a href="#" className="citation">¹²</a>
               <span className="edit-indicator">✏️</span>
             </span>
           </div>
           <p>
             <span className="editable-text" contentEditable suppressContentEditableWarning>
-              1.2M Users
+              100K Users
               <span className="edit-indicator">✏️</span>
             </span>
           </p>
