@@ -8,30 +8,9 @@ description: Core business flows, revenue models, and growth strategy
 
 *Comprehensive business model and revenue visualization using interactive diagrams*
 
-<style>{`
-.citation {
-  font-size: 0.7rem;
-  vertical-align: super;
-  color: #2563EB;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.citation:hover {
-  text-decoration: underline;
-}
-
-.sources {
-  font-size: 0.8rem;
-  color: #6b7280;
-  margin-top: 1.5rem;
-  padding: 1rem;
-  background: #f8f9fa;
-  border-radius: 6px;
-  line-height: 1.4;
-  border-left: 4px solid #2563EB;
-}
-`}</style>
+<div style={{background: '#e0f2fe', border: '2px solid #0277bd', borderRadius: '8px', padding: '1rem', margin: '1rem 0', fontSize: '0.9rem', color: '#01579b'}}>
+<strong>📍 Current Stage:</strong> Pre-Beta Development - All user metrics and revenue figures represent projections based on industry benchmarks and market research. Currently building MVP for Q1 2025 beta launch.
+</div>
 
 ## 🎯 User Journey & Revenue Flow
 
@@ -40,7 +19,7 @@ graph TD
     A[Social Media Discovery] --> B[Landing Page Visit]
     B --> C{Compelling Demo?}
     C -->|Yes| D[Sign Up - Google/Apple]
-    C -->|No| X[65% Bounce Rate]
+    C -->|No| X[65% Bounce Rate¹]
     
     D --> E[5-Step Onboarding]
     E --> F[Sports Selection]
@@ -56,11 +35,11 @@ graph TD
     N --> O[Retained User]
     
     O --> P{Monetization Trigger}
-    P -->|Analytics| Q[9.99/mo Premium]
-    P -->|Merchandise| R[47 USD Team Store]
+    P -->|Analytics| Q[9.99/mo Premium³]
+    P -->|Merchandise| R[47 USD Team Store⁹]
     P -->|Content| S[VIP Access]
     
-    Q --> T[73% Retention Rate]
+    Q --> T[73% Retention Rate²]
     R --> U[Repeat Purchases]
     S --> V[Brand Ambassador]
     
@@ -71,77 +50,21 @@ graph TD
     style X fill:#ffebee,stroke:#dc2626,color:#1f2937
 ```
 
-**Key Flow Metrics:**
-- **65% Bounce Rate**: Average for sports media apps<a href="https://blog.hubspot.com/marketing/bounce-rate-benchmarks" className="citation" target="_blank">¹</a>
-- **73% Retention Rate**: Mobile app industry benchmark<a href="https://www.leanplum.com/resources/report/mobile-app-retention-benchmarks/" className="citation" target="_blank">²</a>
-- **$9.99/month Premium**: Sports app pricing standard<a href="https://www.statista.com/statistics/804878/mobile-app-subscription-pricing/" className="citation" target="_blank">³</a>
-
-## 🏗️ Platform Architecture Overview
-
-```mermaid
-graph LR
-    subgraph "User Experience"
-        A1[Hero Section]
-        A2[Live Game Preview]
-        A3[Feature Showcase]
-        A4[Social Proof]
-    end
-    
-    subgraph "Authentication"
-        B1[OAuth Login]
-        B2[Profile Creation]
-        B3[Onboarding Wizard]
-    end
-    
-    subgraph "Core Features"
-        C1[Game Selection]
-        C2[Live Dashboard]
-        C3[Call Voting]
-        C4[XP System]
-        C5[Leaderboards]
-    end
-    
-    subgraph "Community"
-        D1[Team Cohorts]
-        D2[Live Chat]
-        D3[Content Sharing]
-        D4[Challenges]
-    end
-    
-    subgraph "Revenue Streams"
-        E1[Premium Analytics]
-        E2[Team Merchandise]
-        E3[Creator Tools]
-        E4[B2B Dashboard]
-    end
-    
-    A1 --> B1
-    B3 --> C1
-    C3 --> D1
-    C4 --> E1
-    D3 --> E3
-    
-    style A1 fill:#e3f2fd,stroke:#1e40af,color:#1f2937
-    style C3 fill:#e8f5e8,stroke:#059669,color:#1f2937
-    style E1 fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
-    style E2 fill:#fff3e0,stroke:#ea580c,color:#1f2937
-```
-
-## 💰 Revenue Generation Model
+## 💰 Revenue Generation Model (Projections)
 
 ```mermaid
 graph TD
-    A[Free User Base - 50,000 users] --> B{Engagement Level}
+    A[Target Beta Launch - 1K Users] --> B{Engagement Level}
     
-    B -->|High Engagement| C[Premium Conversion - 12% rate]
-    B -->|Medium Engagement| D[Merchandise Interest - 6.8% conversion]
-    B -->|Low Engagement| E[Retention Programs - Win-back campaigns]
+    B -->|High Engagement| C[Premium Conversion - 12% rate⁴]
+    B -->|Medium Engagement| D[Merchandise Interest - 6.8% conversion⁵]
+    B -->|Low Engagement| E[Retention Programs]
     
     C --> F[Premium Subscriber - 9.99/month]
-    F --> G[73% Retention Rate]
-    G --> H[119 USD Annual LTV]
+    F --> G[73% Retention Rate²]
+    G --> H[119 USD Annual LTV⁶]
     
-    D --> I[Team Store Purchase - 47.50 avg order]
+    D --> I[Team Store Purchase - 47.50 avg order⁹]
     I --> J[Repeat Customer - 23.40/month]
     
     E --> K{Re-engagement Success?}
@@ -158,8 +81,8 @@ graph TD
     Q --> S[Group Purchases]
     Q --> T[Viral Sharing]
     
-    H --> U[600K ARR Target]
-    J --> V[350K Commerce Revenue]
+    H --> U[14K ARR Target Year 1]
+    J --> V[3.2K Commerce Revenue Year 1]
     
     style A fill:#f8fafc,stroke:#64748b,color:#1f2937
     style F fill:#e8f5e8,stroke:#059669,color:#1f2937
@@ -167,11 +90,6 @@ graph TD
     style U fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
     style V fill:#fce7f3,stroke:#ec4899,color:#1f2937
 ```
-
-**Revenue Model Sources:**
-- **12% Premium Conversion**: Industry benchmark for sports apps<a href="https://www.recurly.com/research/subscription-conversion-rate-benchmarks/" className="citation" target="_blank">⁴</a>
-- **6.8% E-commerce Conversion**: Mobile commerce average<a href="https://www.statista.com/statistics/234884/e-commerce-conversion-rate-in-the-us/" className="citation" target="_blank">⁵</a>
-- **$119 Annual LTV**: Based on comparable subscription apps<a href="https://blog.profitwell.com/saas-ltv-benchmarks" className="citation" target="_blank">⁶</a>
 
 ## 🏀 Live Game Experience Flow
 
@@ -186,7 +104,7 @@ graph TB
         B1[BREAKING CALL]
         B2[Technical Foul - Curry]
         B3[Watch 15s Replay]
-        B4[Community: 78% DISAGREE]
+        B4[Community: 78% DISAGREE⁷]
     end
     
     subgraph "User Action"
@@ -221,9 +139,6 @@ graph TB
     style D1 fill:#e8f5e8,stroke:#059669,color:#1f2937
     style E1 fill:#e3f2fd,stroke:#1e40af,color:#1f2937
 ```
-
-**Experience Flow Data:**
-- **78% Fan Disagreement**: Nielsen sports fan engagement study<a href="https://www.nielsen.com/insights/2023/sports-fan-engagement-report/" className="citation" target="_blank">⁷</a>
 
 ## 🎮 Gamification System
 
@@ -273,58 +188,7 @@ graph LR
     style C6 fill:#fff3e0,stroke:#ea580c,color:#1f2937
 ```
 
-**Gamification Success:**
-- **XP Systems**: Proven by Duolingo (500M+ users)<a href="https://blog.duolingo.com/500-million-duolingo-learners/" className="citation" target="_blank">⁸</a>
-
-## 🛒 E-Commerce Integration
-
-```mermaid
-graph TD
-    A[Team Victory Event] --> B[Cohort Celebration]
-    B --> C[Contextual Store Display]
-    
-    C --> D[Featured Products]
-    D --> E1[LeBron Jersey 89.99 USD]
-    D --> E2[Team Hat 34.99 USD]
-    D --> E3[Championship Hoodie 64.99 USD]
-    
-    E1 --> F[Member Discount -15% off]
-    E2 --> F
-    E3 --> F
-    
-    F --> G[Social Proof]
-    G --> H1[12 cohort members shopping]
-    G --> H2[Live purchase updates]
-    G --> H3[Limited time discount]
-    
-    H1 --> I[Add to Cart]
-    H2 --> I
-    H3 --> I
-    
-    I --> J[Checkout Options]
-    J --> K1[Apple Pay]
-    J --> K2[Credit Card]
-    J --> K3[Group Purchase]
-    
-    K1 --> L[Purchase Complete]
-    K2 --> L
-    K3 --> M[Social Commerce Share with Friends]
-    
-    L --> N[Order Confirmation]
-    N --> O[Revenue: 47.50 avg]
-    
-    M --> P[Viral Sharing]
-    P --> Q[Friend Referrals]
-    Q --> R[Network Growth]
-    
-    style A fill:#e8f5e8,stroke:#059669,color:#1f2937
-    style F fill:#fff3e0,stroke:#ea580c,color:#1f2937
-    style O fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
-    style R fill:#fce7f3,stroke:#ec4899,color:#1f2937
-```
-
-**E-commerce Benchmarks:**
-- **$47.50 Average Order**: Sports merchandise industry average<a href="https://www.statista.com/statistics/456362/average-order-value-sports-recreation-ecommerce-us/" className="citation" target="_blank">⁹</a>
+Gamification proven successful by Duolingo (500M+ users)⁸.
 
 ## 📈 Market Position Analysis
 
@@ -379,90 +243,91 @@ graph TB
 ```mermaid
 graph TB
     subgraph "Current Status Q4 2024"
-        A1[50K Beta Users • 70% Retention • 20+ Min Sessions • Media Partnership Talks]
+        A1[Pre-Beta Development • MVP 85% Complete • Team Assembled • Seeking Funding]
+    end
+    
+    subgraph "6-Month Goals Q2 2025"
+        B1[1K Beta Users • Product-Market Fit Testing • Core Features Live]
     end
     
     subgraph "18-Month Goals Q2 2026"
-        B1[500K Active Users • 1M Monthly Revenue • 3 Sports Covered • 25M+ Valuation]
+        C1[25K Active Users • 300K Monthly Revenue • 3 Sports Covered • Series A Ready]
     end
     
-    subgraph "Exit Opportunities 2025-2027"
-        C1[Media Partnerships: ESPN Fox Sports • 50M-200M Acquisition]
-        C2[Tech Integration: Meta Google Apple • 100M-500M Acquisition]
-        C3[League Partnerships: NBA NFL Direct • 25M-100M Strategic]
-        C4[Public Markets: IPO Potential • 500M+ Valuation]
-    end
-    
-    subgraph "ROI Analysis"
-        D1[Seed Investment: 500K to 5M+ • 10x Return 18 months]
-        D2[Series A: 2M to 20M+ • 10x Return 36 months]
-        D3[Comparable Exits: DraftKings 3.3B, FanDuel 11.2B, Discord 15B]
+    subgraph "Exit Opportunities 2026-2028"
+        D1[Media Partnerships: ESPN Fox Sports • 50M-200M Acquisition]
+        D2[Tech Integration: Meta Google Apple • 100M-500M Acquisition]
+        D3[League Partnerships: NBA NFL Direct • 25M-100M Strategic]
+        D4[Public Markets: IPO Potential • 500M+ Valuation]
     end
     
     A1 --> B1
     B1 --> C1
-    B1 --> C2
-    B1 --> C3
-    B1 --> C4
     C1 --> D1
-    C2 --> D2
-    C3 --> D1
-    C4 --> D3
+    C1 --> D2
+    C1 --> D3
+    C1 --> D4
     
     style A1 fill:#e3f2fd,stroke:#1e40af,color:#1f2937
     style B1 fill:#e8f5e8,stroke:#059669,color:#1f2937
-    style C2 fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
+    style C1 fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
     style D2 fill:#fff3e0,stroke:#ea580c,color:#1f2937
 ```
 
-**Growth Targets Based On:**
-- **70% Retention**: Mobile app industry benchmark<a href="https://www.leanplum.com/resources/report/mobile-app-retention-benchmarks/" className="citation" target="_blank">¹⁰</a>
-- **Comparable Exits**: DraftKings ($3.3B<a href="https://www.sec.gov/Archives/edgar/data/1772757/000119312520092662/d860736d424b4.htm" className="citation" target="_blank">¹¹</a>), Discord ($15B<a href="https://techcrunch.com/2021/09/01/discord-valuation-15-billion/" className="citation" target="_blank">¹²</a>)
+Comparable exits: DraftKings ($3.3B)¹⁰, Discord ($15B)¹¹.
 
-## 📊 Key Performance Metrics
+## 📊 Market Opportunity
 
 ```mermaid
 graph TB
-    subgraph "User Engagement"
-        A1[Session Duration: 20+ minutes • Above industry average]
-        A2[Retention Rate: 70% at 30 days • Industry benchmark]
-        A3[Community Participation: 65% join cohorts • Strong engagement]
+    subgraph "Market Sizes"
+        D1[Total Market: $15.2B TAM¹²<br/>Sports Media & Tech]
+        D2[Serviceable Market: $2.8B SAM¹³<br/>Interactive Platforms]
+        D3[Target Market: $340M SOM<br/>Sports Fan Engagement]
     end
     
-    subgraph "Revenue Performance"
-        B1[Premium Conversion: 12% rate • Industry standard]
-        B2[Revenue per User: 119 per year LTV • Strong unit economics]
-        B3[Merchandise Conversion: 6.8% purchase rate • Above average]
+    subgraph "Target Projections"
+        A1[Year 1: 1K Beta Users]
+        A2[Year 2: 25K Active Users]
+        A3[Year 3: 100K Active Users]
     end
     
-    subgraph "Growth Indicators"
-        C1[Monthly User Growth: 10% organic • Sustainable growth]
-        C2[Content Creation: 35% create clips • High engagement]
-        C3[Word of Mouth: Strong recommendation rate]
+    subgraph "Revenue Targets"
+        B1[Year 1: $17K ARR]
+        B2[Year 2: $300K ARR]
+        B3[Year 3: $1.2M ARR]
     end
     
-    subgraph "Market Opportunity"
-        D1[Total Market: 15.2B TAM • Sports Media & Tech]
-        D2[Serviceable Market: 2.8B SAM • Interactive Platforms]
-        D3[Target Market: 340M SOM • Sports Fan Engagement]
-    end
+    D1 --> D2 --> D3
+    A1 --> A2 --> A3
+    B1 --> B2 --> B3
     
-    style A1 fill:#e8f5e8,stroke:#059669,color:#1f2937
-    style B1 fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
-    style C1 fill:#fff3e0,stroke:#ea580c,color:#1f2937
     style D1 fill:#e3f2fd,stroke:#1e40af,color:#1f2937
+    style A3 fill:#e8f5e8,stroke:#059669,color:#1f2937
+    style B3 fill:#f3e5f5,stroke:#7c3aed,color:#1f2937
 ```
-
-**Market Size Sources:**
-- **$15.2B TAM**: Sports analytics and media market<a href="https://www.grandviewresearch.com/industry-analysis/sports-analytics-market" className="citation" target="_blank">¹³</a>
-- **$2.8B SAM**: Interactive sports platforms<a href="https://www.marketsandmarkets.com/Market-Reports/sports-software-market-124984913.html" className="citation" target="_blank">¹⁴</a>
-
-<div className="sources">
-<strong>📚 Complete Source List:</strong><br/>
-¹ HubSpot Bounce Rate Benchmarks | ² Leanplum Mobile App Retention Study | ³ Statista Mobile App Subscription Pricing | ⁴ Recurly Subscription Conversion Benchmarks | ⁵ Statista E-commerce Conversion Rates | ⁶ ProfitWell SaaS LTV Benchmarks | ⁷ Nielsen Sports Fan Engagement Report 2023 | ⁸ Duolingo User Statistics | ⁹ Statista Sports Merchandise AOV | ¹⁰ Leanplum Mobile Retention Report | ¹¹ DraftKings SEC Filing | ¹² TechCrunch Discord Valuation | ¹³ Grand View Research Sports Analytics Market | ¹⁴ MarketsandMarkets Sports Software Report
-</div>
 
 ---
 
-*These interactive diagrams provide a comprehensive visualization of the Ref-U platform's business model and strategic positioning for stakeholder presentations.*
+## 📚 Sources
+
+**Industry Benchmarks & Market Data:**
+
+1. [HubSpot Bounce Rate Benchmarks](https://blog.hubspot.com/marketing/bounce-rate-benchmarks) - Sports media apps average 65% bounce rate
+2. [Leanplum Mobile App Retention Study](https://www.leanplum.com/resources/report/mobile-app-retention-benchmarks/) - 73% retention at 30 days industry benchmark
+3. [Statista Mobile App Subscription Pricing](https://www.statista.com/statistics/804878/mobile-app-subscription-pricing/) - $9.99/month sports app standard
+4. [Recurly Subscription Conversion Benchmarks](https://www.recurly.com/research/subscription-conversion-rate-benchmarks/) - 12% premium conversion rate
+5. [Statista E-commerce Conversion Rates](https://www.statista.com/statistics/234884/e-commerce-conversion-rate-in-the-us/) - 6.8% mobile commerce average
+6. [ProfitWell SaaS LTV Benchmarks](https://blog.profitwell.com/saas-ltv-benchmarks) - $119 annual LTV comparable apps
+7. [Nielsen Sports Fan Engagement Report 2023](https://www.nielsen.com/insights/2023/sports-fan-engagement-report/) - 78% fan disagreement with referee calls
+8. [Duolingo User Statistics](https://blog.duolingo.com/500-million-duolingo-learners/) - 500M+ users prove gamification success
+9. [Statista Sports Merchandise AOV](https://www.statista.com/statistics/456362/average-order-value-sports-recreation-ecommerce-us/) - $47.50 average order value
+10. [DraftKings SEC Filing](https://www.sec.gov/Archives/edgar/data/1772757/000119312520092662/d860736d424b4.htm) - $3.3B valuation
+11. [TechCrunch Discord Valuation](https://techcrunch.com/2021/09/01/discord-valuation-15-billion/) - $15B acquisition value
+12. [Grand View Research Sports Analytics Market](https://www.grandviewresearch.com/industry-analysis/sports-analytics-market) - $15.2B TAM
+13. [MarketsandMarkets Sports Software Report](https://www.marketsandmarkets.com/Market-Reports/sports-software-market-124984913.html) - $2.8B SAM
+
+---
+
+*All projections based on industry benchmarks and market research. Company is currently in pre-beta development stage.*
 
