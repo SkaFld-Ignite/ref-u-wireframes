@@ -251,7 +251,7 @@ graph TB
     end
     
     subgraph "24-Month Goals 2026"
-        C1[Monthly Breakeven Month 18 • Total Breakeven Month 24 • $3.2M ARR • Series A Ready]
+        C1[Product-market fit Month 18 • Break-even Month 30 • $3.2M ARR • Series A Ready]
     end
     
     subgraph "Exit Opportunities 2026-2028"

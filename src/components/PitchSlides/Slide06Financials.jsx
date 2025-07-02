@@ -34,7 +34,7 @@ const Slide06Financials = () => {
           <div className="metric-value" style={{color: '#2563EB'}}>
             $3.2M
           </div>
-          <p>Total Breakeven</p>
+          <p>Growth Phase</p>
         </div>
         
         <div className="metric-card">
@@ -61,8 +61,8 @@ const Slide06Financials = () => {
           <h3>🔥 Key Milestones</h3>
           <p>
             • Beta Launch: Q4 2025 (Month 12)<br/>
-            • Monthly Breakeven: Month 18<br/>
-            • Total Breakeven: Month 24<br/>
+            • Product-market fit: Month 18<br/>
+            • Break-even: Month 30<br/>
             • Series A ready: Month 24-30
           </p>
         </div>
