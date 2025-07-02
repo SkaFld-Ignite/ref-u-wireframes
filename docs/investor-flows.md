@@ -337,24 +337,24 @@ graph TB
 ```mermaid
 graph TB
     subgraph "Current Status Q4 2024"
-        A1[50K Beta Users<br/>70% Retention Rate<br/>25+ Min Sessions<br/>ESPN Partnership Talks]
+        A1[50K Beta Users • 70% Retention • 25+ Min Sessions • ESPN Partnership Talks]
     end
     
     subgraph "18-Month Goals Q2 2026"
-        B1[2M Active Users<br/>2M Monthly Revenue<br/>4 Sports Covered<br/>50M+ Valuation]
+        B1[2M Active Users • 2M Monthly Revenue • 4 Sports Covered • 50M+ Valuation]
     end
     
     subgraph "Exit Opportunities 2025-2027"
-        C1[Media Partnerships<br/>ESPN Fox Sports<br/>50M-200M Acquisition]
-        C2[Tech Integration<br/>Meta Google Apple<br/>100M-500M Acquisition]
-        C3[League Partnerships<br/>NBA NFL Direct<br/>25M-100M Strategic]
-        C4[Public Markets<br/>IPO Potential<br/>500M+ Valuation]
+        C1[Media Partnerships: ESPN Fox Sports • 50M-200M Acquisition]
+        C2[Tech Integration: Meta Google Apple • 100M-500M Acquisition]
+        C3[League Partnerships: NBA NFL Direct • 25M-100M Strategic]
+        C4[Public Markets: IPO Potential • 500M+ Valuation]
     end
     
     subgraph "ROI Analysis"
-        D1[Seed Investment<br/>500K to 5M+<br/>10x Return 18 months]
-        D2[Series A<br/>2M to 20M+<br/>10x Return 36 months]
-        D3[Comparable Exits<br/>DraftKings USD 3.3B<br/>FanDuel USD 11.2B<br/>Discord USD 15B]
+        D1[Seed Investment: 500K to 5M+ • 10x Return 18 months]
+        D2[Series A: 2M to 20M+ • 10x Return 36 months]
+        D3[Comparable Exits: DraftKings USD 3.3B, FanDuel USD 11.2B, Discord USD 15B]
     end
     
     A1 --> B1
@@ -362,7 +362,6 @@ graph TB
     B1 --> C2
     B1 --> C3
     B1 --> C4
-    
     C1 --> D1
     C2 --> D2
     C3 --> D1
@@ -411,5 +410,3 @@ graph TB
 ---
 
 *These interactive diagrams provide a comprehensive visualization of the Ref-U platform's business model and strategic positioning for stakeholder presentations.*
-
-<!-- Force deployment trigger -->

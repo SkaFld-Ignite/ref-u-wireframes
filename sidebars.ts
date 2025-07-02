@@ -12,6 +12,7 @@ const sidebars: SidebarsConfig = {
       label: '📈 Business Overview',
       collapsed: false,
       items: [
+        'pre-seed-pitch-slides',
         'investor-flows',
         'market-analysis',
       ],
@@ -23,14 +24,6 @@ const sidebars: SidebarsConfig = {
       items: [
         'mobile-ux-flows',
         'technical-specs',
-      ],
-    },
-    {
-      type: 'category',
-      label: '📋 Resources',
-      collapsed: true,
-      items: [
-        'presentation-guide',
       ],
     },
   ],

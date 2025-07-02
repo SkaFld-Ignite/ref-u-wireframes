@@ -101,22 +101,22 @@ The **Ref-U Platform** revolutionizes sports fan engagement through real-time re
 ║                                                             ║
 ║  NBA Teams:                                                 ║
 ║                                                             ║
-║  🟡 Los Angeles Lakers        ⭐ FOLLOWING                   ║
-║  🔵 Golden State Warriors     ⭐ FOLLOWING                   ║
+║  🟡 Los Angeles Lakers        ⭐ FOLLOWING                  ║
+║  🔵 Golden State Warriors     ⭐ FOLLOWING                  ║
 ║  🟢 Boston Celtics            ╔═════════════╗               ║
 ║  🔴 Miami Heat                ║ + FOLLOW    ║               ║
-║  ⚪ Dallas Mavericks         ╚═════════════╝               ║
+║  ⚪ Dallas Mavericks         ╚═════════════╝                ║
 ║                                                             ║
-║  💡 Tip: Following teams gives you priority notifications  ║
-║  for their games and exclusive team content.               ║
+║  💡 Tip: Following teams gives you priority notifications   ║
+║  for their games and exclusive team content.                ║
 ║                                                             ║
-║  👥 Join team cohorts:                                     ║
-║  • Lakers Nation (12,847 members)                          ║
-║  • Warriors Ground (9,234 members)                         ║
+║  👥 Join team cohorts:                                      ║
+║  • Lakers Nation (12,847 members)                           ║
+║  • Warriors Ground (9,234 members)                          ║
 ║                                                             ║
-║  ╔═════════════════════╗     ╔═════════════╗               ║
+║  ╔═════════════════════╗     ╔═════════════╗                ║
 ║  ║ NEXT: SET PREFERENCES║     ║    SKIP     ║               ║
-║  ╚═════════════════════╝     ╚═════════════╝               ║
+║  ╚═════════════════════╝     ╚═════════════╝                ║
 ╚═════════════════════════════════════════════════════════════╝
 ```
 
