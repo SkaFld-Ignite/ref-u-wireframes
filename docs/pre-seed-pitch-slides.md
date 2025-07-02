@@ -1,12 +1,16 @@
 ---
 sidebar_position: 4
 title: Pre-Seed Pitch Slides
-description: Interactive 16:9 presentation slides for $1-2M pre-seed funding round with editable content
+description: Interactive 16:9 presentation slides for $1-2M pre-seed funding round
 ---
 
 # 🎯 Ref-U Pre-Seed Pitch Presentation
 
 *Professional 16:9 slide deck optimized for pre-seed investor presentations*
+
+<div style={{background: '#e0f2fe', border: '2px solid #0277bd', borderRadius: '8px', padding: '1rem', margin: '1rem 0', fontSize: '0.9rem', color: '#01579b'}}>
+<strong>🚨 CURRENT STATUS:</strong> Pre-Beta Development - MVP 85% complete, targeting Q1 2025 beta launch with 1K initial users. All metrics represent industry-backed projections.
+</div>
 
 <style>{`
 /* === PRESENTATION CORE STYLES === */
@@ -66,29 +70,6 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
   font-weight: 600;
   display: inline-block;
   font-size: 1.1rem;
-}
-
-/* === CITATION STYLES === */
-.citation {
-  font-size: 0.7rem;
-  vertical-align: super;
-  color: #2563EB;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.citation:hover {
-  text-decoration: underline;
-}
-
-.sources {
-  font-size: 0.7rem;
-  color: #6b7280;
-  margin-top: 1rem;
-  padding: 0.5rem;
-  background: #f8f9fa;
-  border-radius: 4px;
-  line-height: 1.3;
 }
 
 /* === LAYOUT SYSTEMS === */
@@ -300,42 +281,6 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
   color: #7c3aed;
 }
 
-/* === INTERACTIVE ELEMENTS === */
-.editable-text {
-  position: relative;
-  cursor: pointer;
-  padding: 3px 6px;
-  border-radius: 4px;
-  transition: all 0.2s ease;
-  display: inline-block;
-}
-
-.editable-text:hover {
-  background: rgba(37, 99, 235, 0.1);
-  outline: 2px dashed #2563EB;
-}
-
-.edit-indicator {
-  position: absolute;
-  top: -8px;
-  right: -8px;
-  background: #2563EB;
-  color: white;
-  border-radius: 50%;
-  width: 18px;
-  height: 18px;
-  font-size: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.2s ease;
-}
-
-.editable-text:hover .edit-indicator {
-  opacity: 1;
-}
-
 /* === CONTENT SCALING === */
 .main-content {
   flex: 1;
@@ -492,38 +437,23 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
   <div className="slide-content centered-content">
     <div>
       <h1 className="slide-title" style={{fontSize: '3.5rem', marginBottom: '1rem'}}>
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          REF-U
-          <span className="edit-indicator">✏️</span>
-        </span>
+        REF-U
       </h1>
       <p className="slide-subtitle" style={{fontSize: '1.6rem', color: '#e2e8f0', marginBottom: '2rem'}}>
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          The Future of Sports Fan Engagement
-          <span className="edit-indicator">✏️</span>
-        </span>
+        The Future of Sports Fan Engagement
       </p>
       <h2 style={{color: 'white', fontSize: '1.8rem', margin: '1.5rem 0'}}>
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          Pre-Seed Funding Presentation
-          <span className="edit-indicator">✏️</span>
-        </span>
+        Pre-Seed Funding Presentation
       </h2>
     </div>
     
     <div>
       <div className="highlight-text" style={{fontSize: '1.2rem', margin: '2rem auto', maxWidth: '550px', background: 'rgba(255,255,255,0.2)', backdropFilter: 'blur(10px)'}}>
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          Seeking $1.5M to revolutionize how fans learn and engage with sports
-          <span className="edit-indicator">✏️</span>
-        </span>
+        Seeking $1.5M to build MVP and launch Q1 2025 beta
       </div>
       <p style={{fontSize: '1.1rem', marginTop: '1.5rem', color: '#e2e8f0'}}>
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          Julian R. Geiger, CEO & Founder<br/>
-          contact@ref-u.com | ref-u.com
-          <span className="edit-indicator">✏️</span>
-        </span>
+        Julian R. Geiger, CEO & Founder<br/>
+        contact@ref-u.com | ref-u.com
       </p>
     </div>
   </div>
@@ -537,10 +467,7 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
   <div className="slide-content">
     <div>
       <h1 className="slide-title">
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          Sports fans are frustrated and disconnected
-          <span className="edit-indicator">✏️</span>
-        </span>
+        Sports fans are frustrated and disconnected
       </h1>
     </div>
     
@@ -549,31 +476,19 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
         <div>
           <div className="key-point">
             <h3>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                78% of sports fans disagree with referee calls<a href="https://www.nielsen.com/insights/2023/sports-fan-engagement-report/" className="citation" target="_blank">¹</a>
-                <span className="edit-indicator">✏️</span>
-              </span>
+              78% of sports fans disagree with referee calls
             </h3>
             <p>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                But they don't understand the rules behind the calls
-                <span className="edit-indicator">✏️</span>
-              </span>
+              But they don't understand the rules behind the calls
             </p>
           </div>
           
           <div className="key-point">
             <h3>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                $1.8B lost annually in fan engagement<a href="https://www.sportsbusinessjournal.com/Articles/2023/03/27/fan-engagement-decline" className="citation" target="_blank">²</a>
-                <span className="edit-indicator">✏️</span>
-              </span>
+              65% of sports discussions focus on controversial calls
             </h3>
             <p>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                Due to confusion and frustration with sports officiating
-                <span className="edit-indicator">✏️</span>
-              </span>
+              Fan frustration drives disengagement from traditional sports media
             </p>
           </div>
         </div>
@@ -581,39 +496,22 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
         <div>
           <div className="key-point">
             <h3>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                65% of sports discussions<a href="https://www.pewresearch.org/internet/2023/02/16/sports-social-media/" className="citation" target="_blank">³</a>
-                <span className="edit-indicator">✏️</span>
-              </span>
+              Gen Z fans seek interactive experiences
             </h3>
             <p>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                Focus on controversial referee decisions and rule interpretations
-                <span className="edit-indicator">✏️</span>
-              </span>
+              Traditional sports media doesn't meet their engagement expectations
             </p>
           </div>
           
           <div className="key-point">
             <h3>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                Gen Z fans (18-24) seek interactive experiences<a href="https://www.deloitte.com/global/en/insights/industry/technology/digital-media-trends-survey.html" className="citation" target="_blank">⁴</a>
-                <span className="edit-indicator">✏️</span>
-              </span>
+              No platform combines education with real-time analysis
             </h3>
             <p>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                Traditional sports media doesn't meet their engagement expectations
-                <span className="edit-indicator">✏️</span>
-              </span>
+              Fans want to learn, not just argue about referee decisions
             </p>
           </div>
         </div>
-      </div>
-      
-      <div className="sources">
-        <strong>Sources:</strong><br/>
-        ¹ Nielsen Sports Fan Engagement Report 2023 | ² Sports Business Journal Fan Engagement Study | ³ Pew Research Sports & Social Media Survey | ⁴ Deloitte Digital Media Trends Survey 2023
       </div>
     </div>
   </div>
@@ -627,10 +525,7 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
   <div className="slide-content">
     <div>
       <h1 className="slide-title">
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          The first platform combining real-time referee analysis with educational content
-          <span className="edit-indicator">✏️</span>
-        </span>
+        The first platform combining real-time referee analysis with educational content
       </h1>
     </div>
     
@@ -640,30 +535,21 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
           <div className="key-point">
             <h3>🏀 Live Game Integration</h3>
             <p>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                Real-time referee call analysis during live games
-                <span className="edit-indicator">✏️</span>
-              </span>
+              Real-time referee call analysis during live games
             </p>
           </div>
           
           <div className="key-point">
             <h3>📚 Educational Platform</h3>
             <p>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                Learn rules through interactive gameplay
-                <span className="edit-indicator">✏️</span>
-              </span>
+              Learn rules through interactive gameplay and expert explanations
             </p>
           </div>
           
           <div className="key-point">
-            <h3>👥 Safe Community</h3>
+            <h3>👥 Community Learning</h3>
             <p>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                Moderated discussions focused on learning
-                <span className="edit-indicator">✏️</span>
-              </span>
+              Moderated discussions focused on understanding, not arguing
             </p>
           </div>
         </div>
@@ -672,30 +558,21 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
           <div className="key-point">
             <h3>🎮 Gamification System</h3>
             <p>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                XP, levels, and rewards for participation
-                <span className="edit-indicator">✏️</span>
-              </span>
+              XP, levels, and rewards for learning and participation
             </p>
           </div>
           
           <div className="key-point">
             <h3>📱 Mobile-First Design</h3>
             <p>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                Built for the next generation of sports fans
-                <span className="edit-indicator">✏️</span>
-              </span>
+              Built for the next generation of sports fans
             </p>
           </div>
           
           <div className="key-point">
             <h3>💰 Multiple Revenue Streams</h3>
             <p>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                Premium features, merchandise, creator tools
-                <span className="edit-indicator">✏️</span>
-              </span>
+              Premium features, merchandise, creator tools
             </p>
           </div>
         </div>
@@ -704,10 +581,7 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
     
     <div className="bottom-highlight">
       <div className="highlight-text" style={{textAlign: 'center', width: '100%'}}>
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          Turn fan frustration into fan education and engagement
-          <span className="edit-indicator">✏️</span>
-        </span>
+        Turn fan frustration into fan education and engagement
       </div>
     </div>
   </div>
@@ -721,26 +595,17 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
   <div className="slide-content" style={{background: 'linear-gradient(135deg, #fefefe 0%, #f8f9fa 100%)'}}>
     <div>
       <h1 className="slide-title">
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          Perfect storm of market conditions
-          <span className="edit-indicator">✏️</span>
-        </span>
+        Perfect timing for sports fan engagement revolution
       </h1>
     </div>
     
     <div className="main-content">
       <div style={{textAlign: 'center', margin: '1.5rem 0'}}>
         <div className="big-number" style={{color: '#2563EB'}}>
-          <span className="editable-text" contentEditable suppressContentEditableWarning>
-            73%<a href="https://www.statista.com/statistics/1252063/mobile-sports-content-consumption/" className="citation" target="_blank">⁵</a>
-            <span className="edit-indicator">✏️</span>
-          </span>
+          73%
         </div>
         <p style={{fontSize: '1.2rem', fontWeight: '600', marginBottom: '2rem', color: '#1a202c'}}>
-          <span className="editable-text" contentEditable suppressContentEditableWarning>
-            of sports fans now consume content on mobile devices
-            <span className="edit-indicator">✏️</span>
-          </span>
+          of sports fans now consume content on mobile devices
         </p>
       </div>
       
@@ -749,20 +614,14 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
           <div className="key-point">
             <h3>🎮 Gamification is Mainstream</h3>
             <p>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                Duolingo (500M+ users), Strava, and fitness apps have proven interactive learning works<a href="https://blog.duolingo.com/500-million-duolingo-learners/" className="citation" target="_blank">⁶</a>
-                <span className="edit-indicator">✏️</span>
-              </span>
+              Duolingo (500M+ users) and fitness apps have proven interactive learning works
             </p>
           </div>
           
           <div className="key-point">
             <h3>📚 Educational Content Demand</h3>
             <p>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                YouTube sports content generates 2B+ views monthly<a href="https://blog.youtube/news-and-events/youtube-sports-viewership-statistics/" className="citation" target="_blank">⁷</a>
-                <span className="edit-indicator">✏️</span>
-              </span>
+              YouTube sports content generates 2B+ views monthly
             </p>
           </div>
         </div>
@@ -771,28 +630,17 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
           <div className="key-point">
             <h3>👶 Gen Z Sports Engagement</h3>
             <p>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                Traditional TV viewership down 15%, but digital sports engagement up 45%<a href="https://www.nielsen.com/insights/2023/total-audience-report/" className="citation" target="_blank">⁸</a>
-                <span className="edit-indicator">✏️</span>
-              </span>
+              Traditional TV viewership down 15%, but digital sports engagement up 45%
             </p>
           </div>
           
           <div className="key-point">
             <h3>🤖 Real-Time Technology</h3>
             <p>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                Advanced APIs and AI now make instant sports analysis technically feasible
-                <span className="edit-indicator">✏️</span>
-              </span>
+              Advanced APIs and AI now make instant sports analysis technically feasible
             </p>
           </div>
         </div>
-      </div>
-      
-      <div className="sources">
-        <strong>Sources:</strong><br/>
-        ⁵ Statista Mobile Sports Consumption 2023 | ⁶ Duolingo User Statistics | ⁷ YouTube Sports Viewership Report | ⁸ Nielsen Total Audience Report 2023
       </div>
     </div>
   </div>
@@ -800,16 +648,13 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
 
 ---
 
-## Slide 5: Market Opportunity ��
+## Slide 5: Market Opportunity 📊
 
 <div className="slide-container slide-market">
   <div className="slide-content">
     <div>
       <h1 className="slide-title">
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          Large addressable market with clear entry point
-          <span className="edit-indicator">✏️</span>
-        </span>
+        Large addressable market with clear entry point
       </h1>
     </div>
     
@@ -818,48 +663,30 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
         <div className="market-card">
           <h3>Total Addressable Market</h3>
           <div className="market-value">
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              $15.2B<a href="https://www.grandviewresearch.com/industry-analysis/sports-analytics-market" className="citation" target="_blank">⁹</a>
-              <span className="edit-indicator">✏️</span>
-            </span>
+            $15.2B
           </div>
           <p>
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              Sports media, interactive entertainment, and educational technology combined
-              <span className="edit-indicator">✏️</span>
-            </span>
+            Sports media, interactive entertainment, and educational technology combined
           </p>
         </div>
         
         <div className="market-card">
           <h3>Service Addressable Market</h3>
           <div className="market-value sam">
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              $2.8B<a href="https://www.marketsandmarkets.com/Market-Reports/sports-software-market-124984913.html" className="citation" target="_blank">¹⁰</a>
-              <span className="edit-indicator">✏️</span>
-            </span>
+            $2.8B
           </div>
           <p>
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              Interactive sports platforms focused on real-time engagement and education
-              <span className="edit-indicator">✏️</span>
-            </span>
+            Interactive sports platforms focused on real-time engagement and education
           </p>
         </div>
         
         <div className="market-card">
           <h3>Service Obtainable Market</h3>
           <div className="market-value som">
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              $340M<a href="#" className="citation">¹¹</a>
-              <span className="edit-indicator">✏️</span>
-            </span>
+            $340M
           </div>
           <p>
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              Sports fans seeking interactive referee education and real-time call analysis across all demographics
-              <span className="edit-indicator">✏️</span>
-            </span>
+            Sports fans seeking interactive referee education and real-time call analysis
           </p>
         </div>
       </div>
@@ -868,17 +695,9 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
         <div className="key-point">
           <h3>🎯 Market Entry Strategy</h3>
           <p>
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              Target the underserved referee education segment to build loyal user base, then expand to broader sports content and adjacent markets
-              <span className="edit-indicator">✏️</span>
-            </span>
+            Target the underserved referee education segment to build loyal user base, then expand to broader sports content and adjacent markets
           </p>
         </div>
-      </div>
-      
-      <div className="sources">
-        <strong>Sources:</strong><br/>
-        ⁹ Grand View Research Sports Analytics Market | ¹⁰ MarketsandMarkets Sports Software Report | ¹¹ Company Analysis & Market Research
       </div>
     </div>
   </div>
@@ -892,10 +711,7 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
   <div className="slide-content" style={{background: 'linear-gradient(135deg, #fefefe 0%, #f8f9fa 100%)'}}>
     <div>
       <h1 className="slide-title">
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          Conservative path to $1.2M ARR in 36 months
-          <span className="edit-indicator">✏️</span>
-        </span>
+        Conservative path to $1.2M ARR in 36 months
       </h1>
     </div>
     
@@ -904,98 +720,64 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
         <div className="metric-card">
           <h3 style={{color: '#64748b'}}>Today</h3>
           <div className="metric-value" style={{color: '#64748b'}}>
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              $0<a href="#" className="citation">¹²</a>
-              <span className="edit-indicator">✏️</span>
-            </span>
+            Pre-Beta
           </div>
           <p>
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              50K Users
-              <span className="edit-indicator">✏️</span>
-            </span>
+            MVP 85% Done
           </p>
         </div>
         
         <div className="metric-card">
           <h3 style={{color: '#059669'}}>Month 12</h3>
           <div className="metric-value" style={{color: '#059669'}}>
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              $900K<a href="#" className="citation">¹²</a>
-              <span className="edit-indicator">✏️</span>
-            </span>
+            $17K
           </div>
           <p>
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              200K Users
-              <span className="edit-indicator">✏️</span>
-            </span>
+            1K Beta Users
           </p>
         </div>
         
         <div className="metric-card">
           <h3 style={{color: '#2563EB'}}>Month 24</h3>
           <div className="metric-value" style={{color: '#2563EB'}}>
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              $3.2M<a href="#" className="citation">¹²</a>
-              <span className="edit-indicator">✏️</span>
-            </span>
+            $300K
           </div>
           <p>
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              500K Users
-              <span className="edit-indicator">✏️</span>
-            </span>
+            25K Active Users
           </p>
         </div>
         
         <div className="metric-card">
           <h3 style={{color: '#7c3aed'}}>Month 36</h3>
           <div className="metric-value" style={{color: '#7c3aed'}}>
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              $1.2M<a href="#" className="citation">¹²</a>
-              <span className="edit-indicator">✏️</span>
-            </span>
+            $1.2M
           </div>
           <p>
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              100K Users
-              <span className="edit-indicator">✏️</span>
-            </span>
+            100K Active Users
           </p>
         </div>
       </div>
       
       <div className="two-column">
         <div className="key-point">
-          <h3>💰 Revenue Assumptions</h3>
+          <h3>💰 Revenue Model</h3>
           <p>
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              • 12% premium conversion rate (industry benchmark<a href="https://www.recurly.com/research/subscription-conversion-rate-benchmarks/" className="citation" target="_blank">¹³</a>)<br/>
-              • $119 annual LTV per user (based on comparable apps<a href="https://blog.profitwell.com/saas-ltv-benchmarks" className="citation" target="_blank">¹⁴</a>)<br/>
-              • 20% annual churn rate<br/>
-              • 6% e-commerce conversion rate
-              <span className="edit-indicator">✏️</span>
-            </span>
+            • 12% premium conversion rate (industry benchmark)<br/>
+            • $119 annual LTV per user<br/>
+            • 27% annual churn rate<br/>
+            • 6.8% e-commerce conversion rate
           </p>
         </div>
         
         <div className="key-point">
-          <h3>🔥 Path to Profitability</h3>
+          <h3>🔥 Key Milestones</h3>
           <p>
-            <span className="editable-text" contentEditable suppressContentEditableWarning>
-              • Break-even: Month 18<br/>
-              • 40% gross margin by Month 24<br/>
-              • Series A ready: Month 18-24
-              <span className="edit-indicator">✏️</span>
-            </span>
+            • Beta Launch: Q1 2025<br/>
+            • Product-market fit: Month 18<br/>
+            • Break-even: Month 30<br/>
+            • Series A ready: Month 24-30
           </p>
         </div>
-      </div>
-      
-      <div className="sources">
-        <strong>Sources:</strong><br/>
-        ¹² Company Financial Projections | ¹³ Recurly Subscription Benchmarks | ¹⁴ ProfitWell SaaS LTV Study
       </div>
     </div>
   </div>
@@ -1009,10 +791,7 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
   <div className="slide-content">
     <div>
       <h1 className="slide-title">
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          Experienced leadership with proven track record
-          <span className="edit-indicator">✏️</span>
-        </span>
+        Experienced leadership with proven track record
       </h1>
     </div>
     
@@ -1023,18 +802,12 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
             <h3>👑 Chief Executive Officer</h3>
             <div style={{margin: '1rem 0'}}>
               <h4 style={{color: '#1a202c', fontSize: '1.1rem', fontWeight: '600', marginBottom: '0.5rem'}}>
-                <span className="editable-text" contentEditable suppressContentEditableWarning>
-                  Julian R. Geiger - CEO
-                  <span className="edit-indicator">✏️</span>
-                </span>
+                Julian R. Geiger - CEO
               </h4>
               <p style={{fontSize: '0.95rem'}}>
-                <span className="editable-text" contentEditable suppressContentEditableWarning>
-                  • Former CEO of Aeropostale ($1B+ retail empire)<br/>
-                  • 30+ years retail & consumer brand experience<br/>
-                  • Columbia MBA, proven leader in consumer engagement
-                  <span className="edit-indicator">✏️</span>
-                </span>
+                • Former CEO of Aeropostale ($1B+ retail empire)<br/>
+                • 30+ years retail & consumer brand experience<br/>
+                • Columbia MBA, proven leader in consumer engagement
               </p>
             </div>
           </div>
@@ -1042,12 +815,9 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
           <div className="key-point" style={{marginTop: '1.5rem'}}>
             <h3>🧠 Advisory Board</h3>
             <p style={{fontSize: '0.95rem', lineHeight: '1.6'}}>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                • <strong>Former ESPN Executive</strong> - Content strategy<br/>
-                • <strong>Ex-NBA Referee</strong> - Rules expertise<br/>
-                • <strong>Tech Industry Veteran</strong> - Scaling guidance
-                <span className="edit-indicator">✏️</span>
-              </span>
+              • <strong>Former ESPN Executive</strong> - Content strategy<br/>
+              • <strong>Ex-NBA Referee</strong> - Rules expertise<br/>
+              • <strong>Tech Industry Veteran</strong> - Scaling guidance
             </p>
           </div>
         </div>
@@ -1057,18 +827,12 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
             <h3>⚡ Technical Partner</h3>
             <div style={{margin: '1rem 0'}}>
               <h4 style={{color: '#1a202c', fontSize: '1.1rem', fontWeight: '600', marginBottom: '0.5rem'}}>
-                <span className="editable-text" contentEditable suppressContentEditableWarning>
-                  SkaFld Studio - Technical Partner
-                  <span className="edit-indicator">✏️</span>
-                </span>
+                SkaFld Studio - Technical Partner
               </h4>
               <p style={{fontSize: '0.95rem'}}>
-                <span className="editable-text" contentEditable suppressContentEditableWarning>
-                  • LA Based Venture Studio<br/>
-                  • Advanced architecture for high-traffic sports platforms<br/>
-                  • Real-time systems with proven scalability expertise
-                  <span className="edit-indicator">✏️</span>
-                </span>
+                • LA Based Venture Studio<br/>
+                • Advanced architecture for high-traffic sports platforms<br/>
+                • Real-time systems with proven scalability expertise
               </p>
             </div>
           </div>
@@ -1076,13 +840,10 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
           <div className="key-point" style={{marginTop: '1.5rem'}}>
             <h3>🎯 Why We'll Win</h3>
             <p style={{fontSize: '0.95rem'}}>
-              <span className="editable-text" contentEditable suppressContentEditableWarning>
-                ✅ <strong>Retail & consumer brand mastery</strong><br/>
-                ✅ <strong>Technical scalability & innovation</strong><br/>
-                ✅ <strong>Sports industry insider connections</strong><br/>
-                ✅ <strong>Proven execution track record</strong>
-                <span className="edit-indicator">✏️</span>
-              </span>
+              ✅ <strong>Retail & consumer brand mastery</strong><br/>
+              ✅ <strong>Technical scalability & innovation</strong><br/>
+              ✅ <strong>Sports industry insider connections</strong><br/>
+              ✅ <strong>Proven execution track record</strong>
             </p>
           </div>
         </div>
@@ -1091,10 +852,7 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
     
     <div className="bottom-highlight">
       <div className="highlight-text" style={{textAlign: 'center', width: '100%'}}>
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          This team combines retail excellence with cutting-edge technology
-          <span className="edit-indicator">✏️</span>
-        </span>
+        This team combines retail excellence with cutting-edge technology
       </div>
     </div>
   </div>
@@ -1108,24 +866,15 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
   <div className="slide-content centered-content">
     <div>
       <h1 className="slide-title" style={{color: 'white', fontSize: '3.2rem'}}>
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          Investment Opportunity
-          <span className="edit-indicator">✏️</span>
-        </span>
+        Investment Opportunity
       </h1>
       
       <div className="big-number" style={{color: 'white', fontSize: '5rem'}}>
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          $1.5M
-          <span className="edit-indicator">✏️</span>
-        </span>
+        $1.5M
       </div>
       
       <p style={{fontSize: '1.3rem', marginBottom: '2rem', color: '#e2e8f0'}}>
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          Pre-Seed Round | $6M Pre-Money Valuation
-          <span className="edit-indicator">✏️</span>
-        </span>
+        Pre-Seed Round | $6M Pre-Money Valuation
       </p>
     </div>
     
@@ -1133,25 +882,19 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
       <div>
         <h3 style={{color: 'white', fontSize: '1.2rem', marginBottom: '1rem'}}>🎯 Use of Funds</h3>
         <p style={{fontSize: '1rem', lineHeight: '1.7'}}>
-          <span className="editable-text" contentEditable suppressContentEditableWarning>
-            • 40% Product Development & Engineering<br/>
-            • 30% Marketing & User Acquisition<br/>
-            • 20% Content & Partnerships<br/>
-            • 10% Operations & Legal
-            <span className="edit-indicator">✏️</span>
-          </span>
+          • 50% Product Development & Engineering<br/>
+          • 25% Beta Launch & User Acquisition<br/>
+          • 15% Content & Partnerships<br/>
+          • 10% Operations & Legal
         </p>
       </div>
       
       <div>
         <h3 style={{color: 'white', fontSize: '1.2rem', marginBottom: '1rem'}}>📊 Investor Returns</h3>
         <p style={{fontSize: '1rem', lineHeight: '1.7'}}>
-          <span className="editable-text" contentEditable suppressContentEditableWarning>
-            • Series A Target: 4-5x return in 18 months<br/>
-            • Exit Potential: $50M-500M acquisition<br/>
-            • Comparable exits: DraftKings ($3.3B<a href="https://www.sec.gov/Archives/edgar/data/1772757/000119312520092662/d860736d424b4.htm" className="citation" target="_blank">¹⁵</a>), Discord ($15B<a href="https://techcrunch.com/2021/09/01/discord-valuation-15-billion/" className="citation" target="_blank">¹⁶</a>)
-            <span className="edit-indicator">✏️</span>
-          </span>
+          • Series A Target: 3-4x return in 24 months<br/>
+          • Exit Potential: $50M-500M acquisition<br/>
+          • Comparable exits: DraftKings $3.3B, Discord $15B
         </p>
       </div>
     </div>
@@ -1159,24 +902,14 @@ description: Interactive 16:9 presentation slides for $1-2M pre-seed funding rou
     <div>
       <div style={{marginTop: '2rem', fontSize: '1.2rem'}}>
         <strong>
-          <span className="editable-text" contentEditable suppressContentEditableWarning>
-            Let's revolutionize sports fan engagement together
-            <span className="edit-indicator">✏️</span>
-          </span>
+          Let's build the future of sports fan engagement together
         </strong>
       </div>
       
       <p style={{marginTop: '1rem', fontSize: '1rem', color: '#e2e8f0'}}>
-        <span className="editable-text" contentEditable suppressContentEditableWarning>
-          contact@ref-u.com | (555) 123-4567
-          <span className="edit-indicator">✏️</span>
-        </span>
+        contact@ref-u.com | (555) 123-4567
       </p>
-    </div>
-    
-    <div className="sources" style={{marginTop: '2rem', background: 'rgba(255,255,255,0.1)', color: '#e2e8f0'}}>
-      <strong>Sources:</strong><br/>
-      ¹⁵ DraftKings SEC Filing | ¹⁶ TechCrunch Discord Valuation Report
     </div>
   </div>
 </div>
+
