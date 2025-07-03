@@ -46,7 +46,7 @@ const FeedbackButton = ({ slideNumber, slideTitle }) => {
         }}
         onMouseOver={(e) => e.target.style.background = '#1d4ed8'}
         onMouseOut={(e) => e.target.style.background = '#2563EB'}
-        title="Click to provide feedback on this slide (opens GitHub issue form)"
+        title="Click to provide feedback (requires GitHub login)"
       >
         💬 Feedback
       </a>
