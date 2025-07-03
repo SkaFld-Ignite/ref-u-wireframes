@@ -1,9 +1,8 @@
 import React from 'react';
 
 const FeedbackButton = ({ slideNumber, slideTitle }) => {
-  const createIssueUrl = () => {
-    const title = `Feedback: Slide ${slideNumber} - ${slideTitle}`;
-    const body = `## Slide ${slideNumber}: ${slideTitle}
+  const title = `Feedback: Slide ${slideNumber} - ${slideTitle}`;
+  const body = `## Slide ${slideNumber}: ${slideTitle}
 
 **What works well:**
 - 
@@ -17,12 +16,10 @@ const FeedbackButton = ({ slideNumber, slideTitle }) => {
 **Overall rating:** ⭐⭐⭐⭐⭐ (1-5 stars)
 
 ---
-*Feedback submitted from: ${window.location.href}*
+*Feedback submitted from: ${typeof window !== 'undefined' ? window.location.href : 'https://ref-u-wireframes-site.vercel.app/pre-seed-pitch-slides'}*
 *Date: ${new Date().toLocaleDateString()}*`;
-    
-    const url = `https://github.com/SkaFld-Ignite/ref-u-wireframes/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}&labels=investor-feedback,slide-${slideNumber}`;
-    window.open(url, '_blank');
-  };
+  
+  const url = `https://github.com/SkaFld-Ignite/ref-u-wireframes/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}&labels=investor-feedback,slide-${slideNumber}`;
 
   return (
     <div style={{
@@ -31,8 +28,10 @@ const FeedbackButton = ({ slideNumber, slideTitle }) => {
       right: '1rem',
       zIndex: 1000
     }}>
-      <button
-        onClick={createIssueUrl}
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
         style={{
           background: '#2563EB',
           color: 'white',
@@ -41,13 +40,16 @@ const FeedbackButton = ({ slideNumber, slideTitle }) => {
           borderRadius: '6px',
           fontSize: '0.875rem',
           cursor: 'pointer',
-          boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+          boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+          textDecoration: 'none',
+          display: 'inline-block'
         }}
         onMouseOver={(e) => e.target.style.background = '#1d4ed8'}
         onMouseOut={(e) => e.target.style.background = '#2563EB'}
+        title="Click to provide feedback on this slide (opens GitHub issue form)"
       >
         💬 Feedback
-      </button>
+      </a>
     </div>
   );
 };
