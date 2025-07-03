@@ -8,3 +8,4 @@ export { default as Slide05Market } from './Slide05Market';
 export { default as Slide06Financials } from './Slide06Financials';
 export { default as Slide07Team } from './Slide07Team';
 export { default as Slide08Investment } from './Slide08Investment';
+export { default as FeedbackButton } from './FeedbackButton';

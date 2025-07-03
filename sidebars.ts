@@ -1,29 +1,28 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
-  wireframesSidebar: [
+  stakeholderSidebar: [
     {
       type: 'doc',
-      id: 'visual-wireframes',
-      label: '📱 Visual Wireframes',
+      id: 'index',
+      label: '🏠 Stakeholder Home',
     },
     {
       type: 'category', 
-      label: '📈 Business Overview',
+      label: '🎯 Pitch Materials',
       collapsed: false,
       items: [
         'pre-seed-pitch-slides',
-        'investor-flows',
-        'market-analysis',
       ],
     },
     {
       type: 'category',
-      label: '🔧 Technical Details', 
-      collapsed: true,
+      label: '📱 Wireframes & Flows',
+      collapsed: false,
       items: [
+        'visual-wireframes',
+        'investor-flows',
         'mobile-ux-flows',
-        'technical-specs',
       ],
     },
   ],

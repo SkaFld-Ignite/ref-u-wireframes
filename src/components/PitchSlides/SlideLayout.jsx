@@ -1,5 +1,6 @@
 import React from 'react';
 import './PitchSlides.css';
+import FeedbackButton from './FeedbackButton';
 
 const SlideLayout = ({ 
   children, 
@@ -11,6 +12,7 @@ const SlideLayout = ({
 }) => {
   return (
     <div className={`pitch-slide-container ${theme} ${className}`}>
+      <FeedbackButton slideNumber={slideNumber} slideTitle={title} />
       <div className="slide-header">
         <span className="slide-number">Slide {slideNumber}</span>
         <h2 className="slide-header-title">{title}</h2>
