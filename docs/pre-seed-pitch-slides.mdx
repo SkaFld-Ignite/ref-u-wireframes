@@ -4,16 +4,8 @@ title: Pre-Seed Pitch Slides
 description: Interactive 16:9 presentation slides for $1-2M pre-seed funding round
 ---
 
-import {
-  Slide01Cover,
-  Slide02Problem,
-  Slide03Solution,
-  Slide04WhyNow,
-  Slide05Market,
-  Slide06Financials,
-  Slide07Team,
-  Slide08Investment
-} from '@site/src/components/PitchSlides';
+import SanitySlideContent from '@site/src/components/SanitySlideContent';
+import InvestorComment from '@site/src/components/InvestorComment';
 
 # 🎯 Ref-U Pre-Seed Pitch Presentation
 
@@ -23,22 +15,18 @@ import {
 <strong>🚨 CURRENT STATUS:</strong> Pre-Beta Development - MVP 85% complete, targeting Q4 2025 beta launch. All metrics represent industry-backed projections.
 </div>
 
-<Slide01Cover />
+<SanitySlideContent slideId="slide-cover" />
 
-<Slide02Problem />
+<SanitySlideContent slideId="slide-problem" />
 
-<Slide03Solution />
+<SanitySlideContent slideId="slide-solution" />
 
-<Slide04WhyNow />
+<SanitySlideContent slideId="slide-market" />
 
-<Slide05Market />
-
-<Slide06Financials />
-
-<Slide07Team />
-
-<Slide08Investment />
+<SanitySlideContent slideId="slide-financials" />
 
 ---
 
 *Ready for your next investor meeting!*
+
+<InvestorComment pageId="pitch-slides" section="Pitch Deck" />

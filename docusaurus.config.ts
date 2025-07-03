@@ -3,17 +3,17 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Ref-U Platform Wireframes',
-  tagline: 'Revolutionary Sports Fan Engagement Platform - Complete Wireframes Package',
+  title: 'Ref-U Wireframes',
+  tagline: 'Professional wireframes for revolutionary sports fan engagement platform',
   favicon: 'img/favicon.ico',
 
-  url: 'https://ref-u-wireframes-site-igzfuf3eg-skafld-studio.vercel.app',
+  url: 'https://ref-u-wireframes.vercel.app',
   baseUrl: '/',
 
   organizationName: 'SkaFld-Ignite',
   projectName: 'ref-u-wireframes',
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -21,10 +21,15 @@ const config: Config = {
     locales: ['en'],
   },
 
-  markdown: {
-    mermaid: true,
+  customFields: {
+    sanityProjectId: 'jrm3dyyn',
+    sanityDataset: 'production',
   },
-  themes: ['@docusaurus/theme-mermaid'],
+
+  plugins: [
+    'docusaurus-sanity-plugin',
+    '@docusaurus/theme-mermaid',
+  ],
 
   presets: [
     [
@@ -32,11 +37,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          routeBasePath: '/',
-          sidebarCollapsed: false,
+          editUrl: 'https://github.com/SkaFld-Ignite/ref-u-wireframes/tree/main/',
+          remarkPlugins: [
+            [require('./plugins/sanity-transform'), {}],
+          ],
         },
-        blog: false,
-        pages: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -45,23 +50,34 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/ref-u-social-card.jpg',
+    image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Ref-U Wireframes',
-      hideOnScroll: false,
       items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'wireframesSidebar',
+          position: 'left',
+          label: '📱 Visual Wireframes',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'businessSidebar',
+          position: 'left',
+          label: '📈 Business Overview',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'technicalSidebar',
+          position: 'left',
+          label: '🔧 Technical Details',
+        },
         {
           href: 'https://github.com/SkaFld-Ignite/ref-u-wireframes',
           label: 'GitHub',
           position: 'right',
         },
       ],
-    },
-    docs: {
-      sidebar: {
-        hideable: false,
-        autoCollapseCategories: false,
-      },
     },
     footer: {
       style: 'dark',
@@ -106,30 +122,14 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Professional wireframes for revolutionary sports fan engagement platform.`,
+      copyright: 'Professional wireframes for revolutionary sports fan engagement platform.',
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-    colorMode: {
-      defaultMode: 'light',
-      disableSwitch: false,
-      respectPrefersColorScheme: true,
-    },
     mermaid: {
       theme: {light: 'neutral', dark: 'dark'},
-      options: {
-        maxTextSize: 50000,
-        fontFamily: 'Inter, system-ui, sans-serif',
-        fontSize: 16,
-        primaryColor: '#3b82f6',
-        primaryTextColor: '#1f2937',
-        primaryBorderColor: '#1e40af',
-        lineColor: '#6b7280',
-        secondaryColor: '#f3f4f6',
-        tertiaryColor: '#ffffff',
-      },
     },
   } satisfies Preset.ThemeConfig,
 };
