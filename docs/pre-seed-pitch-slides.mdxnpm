@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Pre-Seed Pitch Slides
-description: Interactive 16:9 presentation slides for $1-2M pre-seed funding round
+description: Interactive 16:9 presentation slides for -2M pre-seed funding round
 ---
 
 import {
@@ -55,14 +55,14 @@ import InvestorComment from '@site/src/components/InvestorComment';
 <div style={{ position: 'relative', marginBottom: '2rem', padding: '1rem', border: '1px solid #e5e7eb', borderRadius: '8px' }}>
   <Slide05Market>
     <h2>Market Opportunity</h2>
-    <p>$15.2B TAM in Sports Media & Tech</p>
+    <p>.2B TAM in Sports Media & Tech</p>
   </Slide05Market>
 </div>
 
 <div style={{ position: 'relative', marginBottom: '2rem', padding: '1rem', border: '1px solid #e5e7eb', borderRadius: '8px' }}>
   <Slide06Financials>
     <h2>Financial Projections</h2>
-    <p>Targeting $3.2M ARR by Year 2</p>
+    <p>Targeting .2M ARR by Year 2</p>
   </Slide06Financials>
 </div>
 
@@ -76,12 +76,13 @@ import InvestorComment from '@site/src/components/InvestorComment';
 <div style={{ position: 'relative', marginBottom: '2rem', padding: '1rem', border: '1px solid #e5e7eb', borderRadius: '8px' }}>
   <Slide08Investment>
     <h2>Investment Opportunity</h2>
-    <p>$15M pre-money valuation with a 10x return in 5 years</p>
+    <p>M pre-money valuation, 10x return in 5 years</p>
   </Slide08Investment>
 </div>
 
 ---
 
-*Ready for your next investor meeting!*
+*Ready for your next investor meetinginstall puppeteer
 
 <InvestorComment pageId="pitch-slides" section="Pitch Deck" />
+ run build

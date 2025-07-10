@@ -21,7 +21,7 @@ const Slide01Cover = () => {
         
         <div>
           <div className="highlight-box" style={{fontSize: '1.1rem', margin: '2rem auto', maxWidth: '550px'}}>
-            Seeking $1.5M to build MVP and launch Q1 2025 beta
+            Seeking $1.5M to build MVP and launch Q1 2026
           </div>
           <p style={{fontSize: '1rem', marginTop: '1.5rem', color: 'rgba(255,255,255,0.9)'}}>
             Julian R. Geiger, CEO & Founder<br/>

@@ -17,7 +17,7 @@ const Slide08Investment = () => {
           </div>
           
           <p style={{fontSize: '1.2rem', marginBottom: '2rem', color: 'rgba(255,255,255,0.9)'}}>
-            Pre-Seed Round | $6M Pre-Money Valuation
+            Pre-Seed Round | $15M Pre-Money Valuation
           </p>
         </div>
         
@@ -35,7 +35,7 @@ const Slide08Investment = () => {
           <div>
             <h3 style={{color: 'white', fontSize: '1.1rem', marginBottom: '1rem'}}>📊 Investor Returns</h3>
             <p style={{fontSize: '0.95rem', lineHeight: '1.6'}}>
-              • Series A Target: 3-4x return in 24 months<br/>
+              • 10x return in 5 years<br/>
               • Exit Potential: $50M-500M acquisition<br/>
               • Comparable exits: DraftKings $3.3B, Discord $15B
             </p>

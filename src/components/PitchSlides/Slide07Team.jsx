@@ -36,12 +36,12 @@ const Slide07Team = () => {
         
         <div>
           <div className="team-section">
-            <h3>⚡ Technical Partner</h3>
-            <h4>SkaFld Studio - Technical Partner</h4>
+            <h3>⚡ Chief Technology Officer</h3>
+            <h4>Charles Sims, CTO</h4>
             <div className="team-highlights">
-              <p>• LA Based Venture Studio</p>
-              <p>• Advanced architecture for high-traffic sports platforms</p>
-              <p>• Real-time systems with proven scalability expertise</p>
+              <p>• Former CTO of LA Clippers and United Talent Agency</p>
+              <p>• Executed over $1.5B in M&A transactions across media & sports</p>
+              <p>• Deep expertise in building scalable, real-time sports and media platforms</p>
             </div>
           </div>
           
