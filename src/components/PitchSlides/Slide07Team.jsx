@@ -15,8 +15,8 @@ const Slide07Team = () => {
       <div className="two-column">
         <div>
           <div className="team-section">
-            <h3>👑 Chief Executive Officer</h3>
-            <h4>Julian R. Geiger - Co-Founder/CEO</h4>
+            <h3>👑 Co-Founder/CEO</h3>
+            <h4>Julian R. Geiger</h4>
             <div className="team-highlights">
               <p>• Former CEO of Aeropostale ($3B+ retail empire)</p>
               <p>• 30+ years retail & consumer brand experience</p>
@@ -36,8 +36,8 @@ const Slide07Team = () => {
         
         <div>
           <div className="team-section">
-            <h3>⚡ Chief Technology Officer</h3>
-            <h4>Charles Sims - Technical Co-Founder</h4>
+            <h3>⚡ Technical Co-Founder</h3>
+            <h4>Charles Sims</h4>
             <div className="team-highlights">
               <p>• Former CTO of LA Clippers and United Talent Agency</p>
               <p>• Executed over $1.5B in M&A transactions across media & sports</p>
