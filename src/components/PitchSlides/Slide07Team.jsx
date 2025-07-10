@@ -18,7 +18,7 @@ const Slide07Team = () => {
             <h3>👑 Chief Executive Officer</h3>
             <h4>Julian R. Geiger - CEO</h4>
             <div className="team-highlights">
-              <p>• Former CEO of Aeropostale ($1B+ retail empire)</p>
+              <p>• Former CEO of Aeropostale ($3B+ retail empire)</p>
               <p>• 30+ years retail & consumer brand experience</p>
               <p>• Columbia MBA, proven leader in consumer engagement</p>
             </div>
